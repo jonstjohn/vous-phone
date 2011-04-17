@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* rendezvousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* rendezvousAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* rendezvous.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* rendezvous.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		6077B6151359B5C0006C58C0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B6131359B5C0006C58C0 /* HomeViewController.m */; };
+		6077B6161359B5C0006C58C0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6141359B5C0006C58C0 /* HomeViewController.xib */; };
+		6077B61E1359B70A006C58C0 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B61D1359B70A006C58C0 /* 83-calendar.png */; };
+		6077B6201359B745006C58C0 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B61F1359B745006C58C0 /* 112-group.png */; };
+		6077B6221359B78C006C58C0 /* 134-viking.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6211359B78C006C58C0 /* 134-viking.png */; };
+		6077B6241359B7C9006C58C0 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6231359B7C9006C58C0 /* 103-map.png */; };
+		6077B6261359B7DB006C58C0 /* 171-sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6251359B7DB006C58C0 /* 171-sun.png */; };
+		6077B6281359BB9B006C58C0 /* 189-plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6271359BB9B006C58C0 /* 189-plant.png */; };
+		6077B62A1359C312006C58C0 /* 108-badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6291359C312006C58C0 /* 108-badge.png */; };
+		6077B6341359CFF4006C58C0 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B6321359CFF4006C58C0 /* ScheduleViewController.m */; };
+		6077B6351359CFF4006C58C0 /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6331359CFF4006C58C0 /* ScheduleViewController.xib */; };
+		6077B65D1359D458006C58C0 /* SupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B65B1359D458006C58C0 /* SupportViewController.m */; };
+		6077B65E1359D458006C58C0 /* SupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B65C1359D458006C58C0 /* SupportViewController.xib */; };
+		6077B6751359D8CB006C58C0 /* SponsorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B6731359D8CB006C58C0 /* SponsorViewController.m */; };
+		6077B6761359D8CB006C58C0 /* SponsorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6741359D8CB006C58C0 /* SponsorViewController.xib */; };
+		6077B67F1359D9A9006C58C0 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B67D1359D9A9006C58C0 /* RegistrationViewController.m */; };
+		6077B6801359D9A9006C58C0 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B67E1359D9A9006C58C0 /* RegistrationViewController.xib */; };
+		6077B6861359D9B3006C58C0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B6841359D9B3006C58C0 /* MapViewController.m */; };
+		6077B6871359D9B3006C58C0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B6851359D9B3006C58C0 /* MapViewController.xib */; };
+		6077B68D1359D9BD006C58C0 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B68B1359D9BD006C58C0 /* WeatherViewController.m */; };
+		6077B68E1359D9BD006C58C0 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6077B68C1359D9BD006C58C0 /* WeatherViewController.xib */; };
+		6077B6EB1359F19D006C58C0 /* SponsorTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B6EA1359F19D006C58C0 /* SponsorTableCell.m */; };
+		6077B75C135A5B03006C58C0 /* dpm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6077B759135A5B03006C58C0 /* dpm.jpg */; };
+		6077B75D135A5B03006C58C0 /* mountain_hardware.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6077B75A135A5B03006C58C0 /* mountain_hardware.gif */; };
+		6077B75E135A5B03006C58C0 /* patagonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6077B75B135A5B03006C58C0 /* patagonia.jpg */; };
+		6077B774135A61AC006C58C0 /* dpm.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B773135A61AC006C58C0 /* dpm.png */; };
+		6077B77E135A629E006C58C0 /* mountain_hardware.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B77C135A629E006C58C0 /* mountain_hardware.png */; };
+		6077B77F135A629E006C58C0 /* patagonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6077B77D135A629E006C58C0 /* patagonia.png */; };
+		6077B7C0135B000C006C58C0 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B7B7135B000C006C58C0 /* NSObject+SBJSON.m */; };
+		6077B7C1135B000C006C58C0 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B7B9135B000C006C58C0 /* NSString+SBJSON.m */; };
+		6077B7C2135B000C006C58C0 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B7BB135B000C006C58C0 /* SBJsonBase.m */; };
+		6077B7C3135B000C006C58C0 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B7BD135B000C006C58C0 /* SBJsonParser.m */; };
+		6077B7C4135B000C006C58C0 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6077B7BF135B000C006C58C0 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* rendezvousAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendezvousAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* rendezvousAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rendezvousAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* rendezvous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rendezvous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* rendezvous.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = rendezvous.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* rendezvous_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rendezvous_Prefix.pch; sourceTree = "<group>"; };
+		6077B6121359B5C0006C58C0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6077B6131359B5C0006C58C0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6077B6141359B5C0006C58C0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6077B61D1359B70A006C58C0 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		6077B61F1359B745006C58C0 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		6077B6211359B78C006C58C0 /* 134-viking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "134-viking.png"; sourceTree = "<group>"; };
+		6077B6231359B7C9006C58C0 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		6077B6251359B7DB006C58C0 /* 171-sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "171-sun.png"; sourceTree = "<group>"; };
+		6077B6271359BB9B006C58C0 /* 189-plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "189-plant.png"; sourceTree = "<group>"; };
+		6077B6291359C312006C58C0 /* 108-badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "108-badge.png"; sourceTree = "<group>"; };
+		6077B6311359CFF4006C58C0 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		6077B6321359CFF4006C58C0 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		6077B6331359CFF4006C58C0 /* ScheduleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewController.xib; sourceTree = "<group>"; };
+		6077B65A1359D458006C58C0 /* SupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportViewController.h; sourceTree = "<group>"; };
+		6077B65B1359D458006C58C0 /* SupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportViewController.m; sourceTree = "<group>"; };
+		6077B65C1359D458006C58C0 /* SupportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportViewController.xib; sourceTree = "<group>"; };
+		6077B6721359D8CB006C58C0 /* SponsorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorViewController.h; sourceTree = "<group>"; };
+		6077B6731359D8CB006C58C0 /* SponsorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorViewController.m; sourceTree = "<group>"; };
+		6077B6741359D8CB006C58C0 /* SponsorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SponsorViewController.xib; sourceTree = "<group>"; };
+		6077B67C1359D9A9006C58C0 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		6077B67D1359D9A9006C58C0 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		6077B67E1359D9A9006C58C0 /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		6077B6831359D9B3006C58C0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6077B6841359D9B3006C58C0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6077B6851359D9B3006C58C0 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		6077B68A1359D9BD006C58C0 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		6077B68B1359D9BD006C58C0 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		6077B68C1359D9BD006C58C0 /* WeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		6077B6E91359F19D006C58C0 /* SponsorTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorTableCell.h; sourceTree = "<group>"; };
+		6077B6EA1359F19D006C58C0 /* SponsorTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorTableCell.m; sourceTree = "<group>"; };
+		6077B759135A5B03006C58C0 /* dpm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dpm.jpg; sourceTree = "<group>"; };
+		6077B75A135A5B03006C58C0 /* mountain_hardware.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mountain_hardware.gif; sourceTree = "<group>"; };
+		6077B75B135A5B03006C58C0 /* patagonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patagonia.jpg; sourceTree = "<group>"; };
+		6077B773135A61AC006C58C0 /* dpm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpm.png; sourceTree = "<group>"; };
+		6077B77C135A629E006C58C0 /* mountain_hardware.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain_hardware.png; sourceTree = "<group>"; };
+		6077B77D135A629E006C58C0 /* patagonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patagonia.png; sourceTree = "<group>"; };
+		6077B7B5135B000C006C58C0 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6077B7B6135B000C006C58C0 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6077B7B7135B000C006C58C0 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6077B7B8135B000C006C58C0 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6077B7B9135B000C006C58C0 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6077B7BA135B000C006C58C0 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		6077B7BB135B000C006C58C0 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		6077B7BC135B000C006C58C0 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6077B7BD135B000C006C58C0 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		6077B7BE135B000C006C58C0 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6077B7BF135B000C006C58C0 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* rendezvous-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "rendezvous-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* rendezvousAppDelegate.h */,
+				1D3623250D0F684500981E51 /* rendezvousAppDelegate.m */,
+				6077B6121359B5C0006C58C0 /* HomeViewController.h */,
+				6077B6131359B5C0006C58C0 /* HomeViewController.m */,
+				6077B6141359B5C0006C58C0 /* HomeViewController.xib */,
+				6077B6311359CFF4006C58C0 /* ScheduleViewController.h */,
+				6077B6321359CFF4006C58C0 /* ScheduleViewController.m */,
+				6077B6331359CFF4006C58C0 /* ScheduleViewController.xib */,
+				6077B65A1359D458006C58C0 /* SupportViewController.h */,
+				6077B65B1359D458006C58C0 /* SupportViewController.m */,
+				6077B65C1359D458006C58C0 /* SupportViewController.xib */,
+				6077B6721359D8CB006C58C0 /* SponsorViewController.h */,
+				6077B6731359D8CB006C58C0 /* SponsorViewController.m */,
+				6077B6741359D8CB006C58C0 /* SponsorViewController.xib */,
+				6077B67C1359D9A9006C58C0 /* RegistrationViewController.h */,
+				6077B67D1359D9A9006C58C0 /* RegistrationViewController.m */,
+				6077B67E1359D9A9006C58C0 /* RegistrationViewController.xib */,
+				6077B6831359D9B3006C58C0 /* MapViewController.h */,
+				6077B6841359D9B3006C58C0 /* MapViewController.m */,
+				6077B6851359D9B3006C58C0 /* MapViewController.xib */,
+				6077B68A1359D9BD006C58C0 /* WeatherViewController.h */,
+				6077B68B1359D9BD006C58C0 /* WeatherViewController.m */,
+				6077B68C1359D9BD006C58C0 /* WeatherViewController.xib */,
+				6077B6E91359F19D006C58C0 /* SponsorTableCell.h */,
+				6077B6EA1359F19D006C58C0 /* SponsorTableCell.m */,
+				6077B7C5135B0011006C58C0 /* json */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* rendezvous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6077B77C135A629E006C58C0 /* mountain_hardware.png */,
+				6077B77D135A629E006C58C0 /* patagonia.png */,
+				6077B773135A61AC006C58C0 /* dpm.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* rendezvous_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6077B75F135A5B0F006C58C0 /* sponsor */,
+				6077B61F1359B745006C58C0 /* 112-group.png */,
+				6077B6291359C312006C58C0 /* 108-badge.png */,
+				6077B6271359BB9B006C58C0 /* 189-plant.png */,
+				6077B6231359B7C9006C58C0 /* 103-map.png */,
+				6077B6251359B7DB006C58C0 /* 171-sun.png */,
+				6077B6211359B78C006C58C0 /* 134-viking.png */,
+				6077B61D1359B70A006C58C0 /* 83-calendar.png */,
+				2819305F112F816700ECF9B4 /* rendezvous.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* rendezvous-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6077B75F135A5B0F006C58C0 /* sponsor */ = {
+			isa = PBXGroup;
+			children = (
+				6077B759135A5B03006C58C0 /* dpm.jpg */,
+				6077B75A135A5B03006C58C0 /* mountain_hardware.gif */,
+				6077B75B135A5B03006C58C0 /* patagonia.jpg */,
+			);
+			name = sponsor;
+			sourceTree = "<group>";
+		};
+		6077B7C5135B0011006C58C0 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				6077B7B5135B000C006C58C0 /* JSON.h */,
+				6077B7B6135B000C006C58C0 /* NSObject+SBJSON.h */,
+				6077B7B7135B000C006C58C0 /* NSObject+SBJSON.m */,
+				6077B7B8135B000C006C58C0 /* NSString+SBJSON.h */,
+				6077B7B9135B000C006C58C0 /* NSString+SBJSON.m */,
+				6077B7BA135B000C006C58C0 /* SBJsonBase.h */,
+				6077B7BB135B000C006C58C0 /* SBJsonBase.m */,
+				6077B7BC135B000C006C58C0 /* SBJsonParser.h */,
+				6077B7BD135B000C006C58C0 /* SBJsonParser.m */,
+				6077B7BE135B000C006C58C0 /* SBJsonWriter.h */,
+				6077B7BF135B000C006C58C0 /* SBJsonWriter.m */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* rendezvous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "rendezvous" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rendezvous;
+			productName = rendezvous;
+			productReference = 1D6058910D05DD3D006BFB54 /* rendezvous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "rendezvous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* rendezvous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				6077B6161359B5C0006C58C0 /* HomeViewController.xib in Resources */,
+				6077B61E1359B70A006C58C0 /* 83-calendar.png in Resources */,
+				6077B6201359B745006C58C0 /* 112-group.png in Resources */,
+				6077B6221359B78C006C58C0 /* 134-viking.png in Resources */,
+				6077B6241359B7C9006C58C0 /* 103-map.png in Resources */,
+				6077B6261359B7DB006C58C0 /* 171-sun.png in Resources */,
+				6077B6281359BB9B006C58C0 /* 189-plant.png in Resources */,
+				6077B62A1359C312006C58C0 /* 108-badge.png in Resources */,
+				6077B6351359CFF4006C58C0 /* ScheduleViewController.xib in Resources */,
+				6077B65E1359D458006C58C0 /* SupportViewController.xib in Resources */,
+				6077B6761359D8CB006C58C0 /* SponsorViewController.xib in Resources */,
+				6077B6801359D9A9006C58C0 /* RegistrationViewController.xib in Resources */,
+				6077B6871359D9B3006C58C0 /* MapViewController.xib in Resources */,
+				6077B68E1359D9BD006C58C0 /* WeatherViewController.xib in Resources */,
+				6077B75C135A5B03006C58C0 /* dpm.jpg in Resources */,
+				6077B75D135A5B03006C58C0 /* mountain_hardware.gif in Resources */,
+				6077B75E135A5B03006C58C0 /* patagonia.jpg in Resources */,
+				6077B774135A61AC006C58C0 /* dpm.png in Resources */,
+				6077B77E135A629E006C58C0 /* mountain_hardware.png in Resources */,
+				6077B77F135A629E006C58C0 /* patagonia.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* rendezvousAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* rendezvous.xcdatamodeld in Sources */,
+				6077B6151359B5C0006C58C0 /* HomeViewController.m in Sources */,
+				6077B6341359CFF4006C58C0 /* ScheduleViewController.m in Sources */,
+				6077B65D1359D458006C58C0 /* SupportViewController.m in Sources */,
+				6077B6751359D8CB006C58C0 /* SponsorViewController.m in Sources */,
+				6077B67F1359D9A9006C58C0 /* RegistrationViewController.m in Sources */,
+				6077B6861359D9B3006C58C0 /* MapViewController.m in Sources */,
+				6077B68D1359D9BD006C58C0 /* WeatherViewController.m in Sources */,
+				6077B6EB1359F19D006C58C0 /* SponsorTableCell.m in Sources */,
+				6077B7C0135B000C006C58C0 /* NSObject+SBJSON.m in Sources */,
+				6077B7C1135B000C006C58C0 /* NSString+SBJSON.m in Sources */,
+				6077B7C2135B000C006C58C0 /* SBJsonBase.m in Sources */,
+				6077B7C3135B000C006C58C0 /* SBJsonParser.m in Sources */,
+				6077B7C4135B000C006C58C0 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rendezvous_Prefix.pch;
+				INFOPLIST_FILE = "rendezvous-Info.plist";
+				PRODUCT_NAME = rendezvous;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = rendezvous_Prefix.pch;
+				INFOPLIST_FILE = "rendezvous-Info.plist";
+				PRODUCT_NAME = rendezvous;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "rendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* rendezvous.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* rendezvous.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* rendezvous.xcdatamodel */;
+			path = rendezvous.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
