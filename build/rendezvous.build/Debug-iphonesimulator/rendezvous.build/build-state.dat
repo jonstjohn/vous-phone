@@ -1,7 +1,7 @@
 Trendezvous
 v7
 r0
-t324747794.702071
+t324872735.364463
 cCheck dependencies
 cProcessInfoPlistFile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/Info.plist rendezvous-Info.plist
 cCompileXIB /Users/jonstjohn/Documents/rendezvous/MainWindow.xib
@@ -25,6 +25,47 @@ cCpResource build/Debug-iphonesimulator/rendezvous.app/patagonia.jpg patagonia.j
 cCpResource build/Debug-iphonesimulator/rendezvous.app/dpm.png dpm.png
 cCpResource build/Debug-iphonesimulator/rendezvous.app/mountain_hardware.png mountain_hardware.png
 cCpResource build/Debug-iphonesimulator/rendezvous.app/patagonia.png patagonia.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/vous_logo.png vous_logo.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/climbing.png climbing.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/court.png court.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy1_night.png cloudy1_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy1.png cloudy1.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy2_night.png cloudy2_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy2.png cloudy2.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy3_night.png cloudy3_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy3.png cloudy3.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy4_night.png cloudy4_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy4.png cloudy4.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy5.png cloudy5.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/dunno.png dunno.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/fog_night.png fog_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/fog.png fog.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/hail.png hail.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/light_rain.png light_rain.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/mist_night.png mist_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/mist.png mist.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/overcast.png overcast.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/shower1_night.png shower1_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/shower1.png shower1.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/shower2_night.png shower2_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/shower2.png shower2.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/shower3.png shower3.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/sleet.png sleet.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow1_night.png snow1_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow1.png snow1.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow2_night.png snow2_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow2.png snow2.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow3_night.png snow3_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow3.png snow3.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow4.png snow4.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/snow5.png snow5.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/sunny_night.png sunny_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/sunny.png sunny.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm1_night.png tstorm1_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm1.png tstorm1.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm2_night.png tstorm2_night.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm2.png tstorm2.png
+cCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm3.png tstorm3.png
 cProcessPCH /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch.gch rendezvous_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cDataModelVersionCompile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous.momd /Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld
 cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/main.o /Users/jonstjohn/Documents/rendezvous/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -42,6 +83,8 @@ cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-
 cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SBJsonBase.o /Users/jonstjohn/Documents/rendezvous/Classes/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SBJsonParser.o /Users/jonstjohn/Documents/rendezvous/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SBJsonWriter.o /Users/jonstjohn/Documents/rendezvous/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapPoint.o /Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/AreaDailyCell.o /Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous normal i386
 cGenerateDSYMFile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous
 cTouch /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app
@@ -66,6 +109,16 @@ c000000004CC12246000000000029B310
 t1287725638
 s2732816
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004DA0F66F0000000000074190
+t1302394479
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000004CC1226D000000000029D5D0
 t1287725677
@@ -75,6 +128,16 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2
 c000000004CC1225F0000000000001466
 t1287725663
 s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004CC1281F0000000000000AA1
@@ -126,6 +189,18 @@ c000000004CB898CE0000000000000B49
 t1287166158
 s2889
 
+N/Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.h
+c000000004DACEFFC00000000000003D1
+t1303179260
+s977
+i<UIKit/UIKit.h>
+
+N/Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m
+c000000004DACF015000000000000156A
+t1303179285
+s5482
+i"AreaDailyCell.h"
+
 N/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.h
 c000000004DA9A346000000000000035F
 t1302963014
@@ -145,9 +220,9 @@ s2387
 i"HomeViewController.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib
-c000000004DA9A379000000000000B1EC
-t1302963065
-s45548
+c000000004DAC0DE5000000000000BBC5
+t1303121381
+s48069
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/JSON.h
 c000000004D2B12CC0000000000000AC5
@@ -162,22 +237,38 @@ i<JSON/SBJsonWriter.h>
 i<JSON/NSObject+SBJSON.h>
 i<JSON/NSString+SBJSON.h>
 
+N/Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.h
+c000000004DACEA3F00000000000001F8
+t1303177791
+s504
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m
+c000000004DACEA3900000000000001B1
+t1303177785
+s433
+i"MapPoint.h"
+
 N/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.h
-c000000004DA9A23300000000000000EC
-t1302962739
-s236
+c000000004DACE95E0000000000000165
+t1303177566
+s357
 i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m
-c000000004DA9A3270000000000000347
-t1302962983
-s839
+c000000004DACEDBA000000000000082B
+t1303178682
+s2091
 i"MapViewController.h"
+i"MapPoint.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib
-c000000004DA9A233000000000000186E
-t1302962739
-s6254
+c000000004DACEDEF0000000000004707
+t1303178735
+s18183
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/NSObject+SBJSON.h
 c000000004D2B12CC000000000000085F
@@ -261,22 +352,22 @@ s8301
 i"SBJsonWriter.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.h
-c000000004DAB0A3700000000000001B5
-t1303054903
-s437
+c000000004DAC0F8D00000000000001EA
+t1303121805
+s490
 i<UIKit/UIKit.h>
 i"JSON.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m
-c000000004DAB0A8C0000000000001177
-t1303054988
-s4471
+c000000004DAC109F00000000000011B7
+t1303122079
+s4535
 i"ScheduleViewController.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib
-c000000004DAB0A44000000000000609A
-t1303054916
-s24730
+c000000004DAC0F990000000000005803
+t1303121817
+s22531
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/SponsorTableCell.h
 c000000004DA9BB610000000000000168
@@ -326,21 +417,22 @@ t1302968028
 s33735
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.h
-c000000004DA9A23D00000000000000F4
-t1302962749
-s244
+c000000004DACF0480000000000000194
+t1303179336
+s404
 i<UIKit/UIKit.h>
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m
-c000000004DA9A31E0000000000000357
-t1302962974
-s855
+c000000004DACF0A70000000000001BB2
+t1303179431
+s7090
 i"WeatherViewController.h"
+i"AreaDailyCell.h"
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib
-c000000004DA9A23D000000000000187A
-t1302962749
-s6266
+c000000004DACF295000000000000517A
+t1303179925
+s20858
 
 N/Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.h
 c000000004DA97D8D0000000000000370
@@ -362,11 +454,11 @@ t1302953357
 s8663
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app
-t1303054994
-s918
+t1303179935
+s2312
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM
-t1303054994
+t1303179432
 s102
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/103-map.png
@@ -398,8 +490,8 @@ t1302960418
 s2889
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/HomeViewController.nib
-t1302963069
-s4347
+t1303121938
+s4462
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/Info.plist
 t1302953623
@@ -410,8 +502,8 @@ t1302953624
 s987
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/MapViewController.nib
-t1302962993
-s764
+t1303178750
+s1204
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/PkgInfo
 t1302953623
@@ -422,8 +514,8 @@ t1302962993
 s764
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/ScheduleViewController.nib
-t1303054994
-s1922
+t1303121938
+s1321
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/SponsorViewController.nib
 t1302987354
@@ -434,8 +526,52 @@ t1302968092
 s3174
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/WeatherViewController.nib
-t1302962993
-s764
+t1303179935
+s1148
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/climbing.png
+t1303178711
+s1291
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy1.png
+t1303179550
+s4717
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy1_night.png
+t1303179550
+s4237
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy2.png
+t1303179550
+s4870
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy2_night.png
+t1303179550
+s4255
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy3.png
+t1303179550
+s3101
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy3_night.png
+t1303179550
+s4129
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy4.png
+t1303179550
+s4831
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy4_night.png
+t1303179550
+s4207
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/cloudy5.png
+t1303179550
+s4262
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/court.png
+t1303178711
+s1461
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/dpm.jpg
 t1302995881
@@ -445,6 +581,34 @@ N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.ap
 t1302997635
 s3750
 
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/dunno.png
+t1303179550
+s3655
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/fog.png
+t1303179550
+s4779
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/fog_night.png
+t1303179550
+s4245
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/hail.png
+t1303179550
+s4442
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/light_rain.png
+t1303179550
+s4245
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/mist.png
+t1303179550
+s4708
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/mist_night.png
+t1303179550
+s4215
+
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/mountain_hardware.gif
 t1302995881
 s2681
@@ -452,6 +616,10 @@ s2681
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/mountain_hardware.png
 t1302997843
 s2140
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/overcast.png
+t1303179550
+s4512
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/patagonia.jpg
 t1302995881
@@ -462,20 +630,116 @@ t1302997843
 s2614
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous
-t1303054994
-s90332
+t1303179432
+s119804
 
 N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous.momd
 t1302987354
 s136
 
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/shower1.png
+t1303179550
+s4891
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/shower1_night.png
+t1303179550
+s4376
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/shower2.png
+t1303179550
+s4971
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/shower2_night.png
+t1303179550
+s4499
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/shower3.png
+t1303179550
+s4425
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/sleet.png
+t1303179550
+s4515
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow1.png
+t1303179550
+s4957
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow1_night.png
+t1303179550
+s4397
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow2.png
+t1303179550
+s5004
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow2_night.png
+t1303179550
+s4522
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow3.png
+t1303179550
+s5017
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow3_night.png
+t1303179550
+s4542
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow4.png
+t1303179550
+s4515
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/snow5.png
+t1303179550
+s4591
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/sunny.png
+t1303179550
+s4603
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/sunny_night.png
+t1303179550
+s4102
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/tstorm1.png
+t1303179550
+s5015
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/tstorm1_night.png
+t1303179550
+s4537
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/tstorm2.png
+t1303179550
+s5071
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/tstorm2_night.png
+t1303179550
+s4587
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/tstorm3.png
+t1303179550
+s4461
+
+N/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/vous_logo.png
+t1303121326
+s7602
+
+N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/AreaDailyCell.o
+t1303179417
+s61808
+
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/HomeViewController.o
-t1303054994
-s48524
+t1303179416
+s49420
+
+N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapPoint.o
+t1303177811
+s11992
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapViewController.o
-t1302962993
-s39284
+t1303178711
+s47144
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/NSObject+SBJSON.o
 t1303038727
@@ -502,8 +766,8 @@ t1303038727
 s26660
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/ScheduleViewController.o
-t1303054994
-s59740
+t1303122082
+s60532
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SponsorTableCell.o
 t1302969608
@@ -518,21 +782,76 @@ t1302961899
 s39404
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/WeatherViewController.o
-t1302962993
-s39396
+t1303179432
+s68604
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/main.o
 t1302953625
 s6300
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvous.LinkFileList
-c000000004DAACB070000000000000830
-t1303038727
-s2096
+c000000004DACF098000000000000093B
+t1303179416
+s2363
 
 N/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvousAppDelegate.o
-t1303054994
-s64816
+t1303179417
+s65712
+
+N/Users/jonstjohn/Documents/rendezvous/climbing.png
+c000000004D3C2369000000000000050B
+t1295786857
+s1291
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy1.png
+c000000004D3C2369000000000000126D
+t1295786857
+s4717
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy1_night.png
+c000000004D3C2369000000000000108D
+t1295786857
+s4237
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy2.png
+c000000004D3C23690000000000001306
+t1295786857
+s4870
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy2_night.png
+c000000004D3C2369000000000000109F
+t1295786857
+s4255
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy3.png
+c000000004D3C23690000000000000C1D
+t1295786857
+s3101
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy3_night.png
+c000000004D3C23690000000000001021
+t1295786857
+s4129
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy4.png
+c000000004D3C236900000000000012DF
+t1295786857
+s4831
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy4_night.png
+c000000004D3C2369000000000000106F
+t1295786857
+s4207
+
+N/Users/jonstjohn/Documents/rendezvous/cloudy5.png
+c000000004D3C236900000000000010A6
+t1295786857
+s4262
+
+N/Users/jonstjohn/Documents/rendezvous/court.png
+c000000004DACED5D00000000000005B5
+t1303178589
+s1461
 
 N/Users/jonstjohn/Documents/rendezvous/dpm.jpg
 c000000004DAA22B00000000000000B60
@@ -544,11 +863,46 @@ c000000004DAA2A7D0000000000000EA6
 t1302997629
 s3750
 
+N/Users/jonstjohn/Documents/rendezvous/dunno.png
+c000000004D3C23690000000000000E47
+t1295786857
+s3655
+
+N/Users/jonstjohn/Documents/rendezvous/fog.png
+c000000004D3C236900000000000012AB
+t1295786857
+s4779
+
+N/Users/jonstjohn/Documents/rendezvous/fog_night.png
+c000000004D3C23690000000000001095
+t1295786857
+s4245
+
+N/Users/jonstjohn/Documents/rendezvous/hail.png
+c000000004D3C2369000000000000115A
+t1295786857
+s4442
+
+N/Users/jonstjohn/Documents/rendezvous/light_rain.png
+c000000004D3C23690000000000001095
+t1295786857
+s4245
+
 N/Users/jonstjohn/Documents/rendezvous/main.m
 c000000004DA97D8D000000000000016F
 t1302953357
 s367
 i<UIKit/UIKit.h>
+
+N/Users/jonstjohn/Documents/rendezvous/mist.png
+c000000004D3C23690000000000001264
+t1295786857
+s4708
+
+N/Users/jonstjohn/Documents/rendezvous/mist_night.png
+c000000004D3C23690000000000001077
+t1295786857
+s4215
 
 N/Users/jonstjohn/Documents/rendezvous/mountain_hardware.gif
 c000000004DAA23310000000000000A79
@@ -559,6 +913,11 @@ N/Users/jonstjohn/Documents/rendezvous/mountain_hardware.png
 c000000004DAA2AD3000000000000085C
 t1302997715
 s2140
+
+N/Users/jonstjohn/Documents/rendezvous/overcast.png
+c000000004D3C236900000000000011A0
+t1295786857
+s4512
 
 N/Users/jonstjohn/Documents/rendezvous/patagonia.jpg
 c000000004DAA234A0000000000000A5F
@@ -584,6 +943,116 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
+N/Users/jonstjohn/Documents/rendezvous/shower1.png
+c000000004D3C2369000000000000131B
+t1295786857
+s4891
+
+N/Users/jonstjohn/Documents/rendezvous/shower1_night.png
+c000000004D3C23690000000000001118
+t1295786857
+s4376
+
+N/Users/jonstjohn/Documents/rendezvous/shower2.png
+c000000004D3C2369000000000000136B
+t1295786857
+s4971
+
+N/Users/jonstjohn/Documents/rendezvous/shower2_night.png
+c000000004D3C23690000000000001193
+t1295786857
+s4499
+
+N/Users/jonstjohn/Documents/rendezvous/shower3.png
+c000000004D3C23690000000000001149
+t1295786857
+s4425
+
+N/Users/jonstjohn/Documents/rendezvous/sleet.png
+c000000004D3C236900000000000011A3
+t1295786857
+s4515
+
+N/Users/jonstjohn/Documents/rendezvous/snow1.png
+c000000004D3C2369000000000000135D
+t1295786857
+s4957
+
+N/Users/jonstjohn/Documents/rendezvous/snow1_night.png
+c000000004D3C2369000000000000112D
+t1295786857
+s4397
+
+N/Users/jonstjohn/Documents/rendezvous/snow2.png
+c000000004D3C2369000000000000138C
+t1295786857
+s5004
+
+N/Users/jonstjohn/Documents/rendezvous/snow2_night.png
+c000000004D3C236900000000000011AA
+t1295786857
+s4522
+
+N/Users/jonstjohn/Documents/rendezvous/snow3.png
+c000000004D3C23690000000000001399
+t1295786857
+s5017
+
+N/Users/jonstjohn/Documents/rendezvous/snow3_night.png
+c000000004D3C236900000000000011BE
+t1295786857
+s4542
+
+N/Users/jonstjohn/Documents/rendezvous/snow4.png
+c000000004D3C236900000000000011A3
+t1295786857
+s4515
+
+N/Users/jonstjohn/Documents/rendezvous/snow5.png
+c000000004D3C236900000000000011EF
+t1295786857
+s4591
+
+N/Users/jonstjohn/Documents/rendezvous/sunny.png
+c000000004D3C236900000000000011FB
+t1295786857
+s4603
+
+N/Users/jonstjohn/Documents/rendezvous/sunny_night.png
+c000000004D3C23690000000000001006
+t1295786857
+s4102
+
+N/Users/jonstjohn/Documents/rendezvous/tstorm1.png
+c000000004D3C23690000000000001397
+t1295786857
+s5015
+
+N/Users/jonstjohn/Documents/rendezvous/tstorm1_night.png
+c000000004D3C236900000000000011B9
+t1295786857
+s4537
+
+N/Users/jonstjohn/Documents/rendezvous/tstorm2.png
+c000000004D3C236900000000000013CF
+t1295786857
+s5071
+
+N/Users/jonstjohn/Documents/rendezvous/tstorm2_night.png
+c000000004D3C236900000000000011EB
+t1295786857
+s4587
+
+N/Users/jonstjohn/Documents/rendezvous/tstorm3.png
+c000000004D3C2369000000000000116D
+t1295786857
+s4461
+
+N/Users/jonstjohn/Documents/rendezvous/vous_logo.png
+c000000004DAB6DEE0000000000001DB2
+t1303080430
+s7602
+
 N/var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch.gch
 t1302953625
 s16326640
@@ -595,11 +1064,24 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies324747793#324747793#0(0"0(0#1#0"8665915712#0"0#
+lSLF07#2@18"Check dependencies324872734#324872734#0(0"0(0#1#0"8651066976#0"0#
+
+CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/AreaDailyCell.o /Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324872217.095709
+e324872217.389139
+r1
+xCompileC
+xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/AreaDailyCell.o
+x/Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m324872217#324872217#0(0"0(0#0#61"/Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m8650899488#2051"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/AreaDailyCell.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/AreaDailyCell.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/HomeViewController.o /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324747794.289307
-e324747794.436926
+s324872216.832647
+e324872216.998230
 r1
 xCompileC
 xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/HomeViewController.o
@@ -608,11 +1090,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m324747794#324747794#0(0"0(0#0#66"/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m8666563328#2061"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/HomeViewController.o0#
+lSLF07#2@74"Compile /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m324872216#324872217#0(0"0(0#0#66"/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m8648001632#2061"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/HomeViewController.o0#
+
+CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapPoint.o /Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324870611.590432
+e324870611.726220
+r1
+xCompileC
+xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapPoint.o
+x/Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m324870611#324870611#0(0"0(0#0#56"/Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m8649218624#2041"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/MapPoint.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapPoint.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapViewController.o /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324655793.639588
-e324655793.748898
+s324871511.412547
+e324871511.656921
 r1
 xCompileC
 xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapViewController.o
@@ -621,7 +1116,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m324655793#324655793#0(0"0(0#0#65"/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m8626235680#2059"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapViewController.o0#
+lSLF07#2@73"Compile /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m324871511#324871511#0(0"0(0#0#65"/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m8607223392#2059"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/MapViewController.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/NSObject+SBJSON.o /Users/jonstjohn/Documents/rendezvous/Classes/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s324731527.375270
@@ -702,8 +1197,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/jonstjohn/Documents/rendezvous/Classes/SBJsonWriter.m324731527#324731527#0(0"0(0#0#60"/Users/jonstjohn/Documents/rendezvous/Classes/SBJsonWriter.m8652625824#2049"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/SBJsonWriter.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SBJsonWriter.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/ScheduleViewController.o /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324747794.437038
-e324747794.604470
+s324814882.012956
+e324814882.198105
 r1
 xCompileC
 xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/ScheduleViewController.o
@@ -718,8 +1213,8 @@ o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warn
 o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: will be assumed to return 'id' and accept
 o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: '...' as arguments.)
 o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m: In function '-[ScheduleViewController connectionDidFinishLoading:]':
-o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:139: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found
-lSLF07#2@78"Compile /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324747794#324747794#0(932"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m: In function '-[ScheduleViewController viewWillAppear:]':/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: (Messages without a matching method signature/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: will be assumed to return 'id' and accept/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: '...' as arguments.)/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m: In function '-[ScheduleViewController connectionDidFinishLoading:]':/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:139: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found3(22@65"No '-descriptionWithCalendarFormat:timeZone:locale:' method found324747794#129#150#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324747788#74#0#74#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)324747794#279#130#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324747788#74#0#74#0#0"0(22@65"No '-descriptionWithCalendarFormat:timeZone:locale:' method found324747794#781#151#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324747788#139#0#139#0#19"no '*' method found0(0#0#70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m8665649280#2069"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/ScheduleViewController.o0#
+o/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:140: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found
+lSLF07#2@78"Compile /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324814882#324814882#0(932"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m: In function '-[ScheduleViewController viewWillAppear:]':/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: (Messages without a matching method signature/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: will be assumed to return 'id' and accept/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:74: warning: '...' as arguments.)/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m: In function '-[ScheduleViewController connectionDidFinishLoading:]':/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m:140: warning: no '-descriptionWithCalendarFormat:timeZone:locale:' method found3(22@65"No '-descriptionWithCalendarFormat:timeZone:locale:' method found324814882#129#150#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324814879#74#0#74#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)324814882#279#130#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324814879#74#0#74#0#0"0(22@65"No '-descriptionWithCalendarFormat:timeZone:locale:' method found324814882#781#151#0(6@70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m324814879#140#0#140#0#19"no '*' method found0(0#0#70"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m8615326624#2069"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/ScheduleViewController.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SponsorTableCell.o /Users/jonstjohn/Documents/rendezvous/Classes/SponsorTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s324662408.739814
@@ -763,8 +1258,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.m324654699#324654699#0(0"0(0#0#69"/Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.m8652353664#2067"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/SupportViewController.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/WeatherViewController.o /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324655793.710619
-e324655793.857173
+s324872232.603739
+e324872232.855214
 r1
 xCompileC
 xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/WeatherViewController.o
@@ -773,7 +1268,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m324655793#324655793#0(0"0(0#0#69"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m8653836352#2067"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/WeatherViewController.o0#
+o/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m: In function '-[WeatherViewController connectionDidFinishLoading:]':
+o/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: 'NSString' may not respond to '-JSONValue'
+o/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: (Messages without a matching method signature
+o/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: will be assumed to return 'id' and accept
+o/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: '...' as arguments.)
+lSLF07#2@77"Compile /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m324872232#324872232#0(627"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m: In function '-[WeatherViewController connectionDidFinishLoading:]':/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: 'NSString' may not respond to '-JSONValue'/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: (Messages without a matching method signature/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: will be assumed to return 'id' and accept/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m:184: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'324872232#139#127#0(6@69"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m324872231#184#0#184#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)324872232#266#130#0(6@69"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m324872231#184#0#184#0#0"0(0#0#69"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m8646002176#2067"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/WeatherViewController.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/main.o /Users/jonstjohn/Documents/rendezvous/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s324646425.411932
@@ -789,8 +1289,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@52"Compile /Users/jonstjohn/Documents/rendezvous/main.m324646425#324646425#0(0"0(0#0#44"/Users/jonstjohn/Documents/rendezvous/main.m8653785440#2025"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/main.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/main.o0#
 
 CCompileC build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvousAppDelegate.o /Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324747794.288174
-e324747794.467210
+s324872216.831430
+e324872217.094606
 r1
 xCompileC
 xbuild/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvousAppDelegate.o
@@ -799,23 +1299,23 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m324747794#324747794#0(0"0(0#0#69"/Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m8666987456#2067"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvousAppDelegate.o0#
+lSLF07#2@77"Compile /Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m324872216#324872217#0(0"0(0#0#69"/Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m8640212384#2067"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -include /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch -c /Users/jonstjohn/Documents/rendezvous/Classes/rendezvousAppDelegate.m -o /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvousAppDelegate.o0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib
-s324655869.076620
-e324655869.771275
+s324814737.801296
+e324814738.870047
 r1
 xCompileXIB
 x/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib
-lSLF07#2@41"CompileXIB Classes/HomeViewController.xib324655869#324655869#0(0"0(0#0#68"/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib8652102112#656"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/HomeViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@41"CompileXIB Classes/HomeViewController.xib324814737#324814738#0(0"0(0#0#68"/Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib8614183936#656"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/HomeViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/HomeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib
-s324655792.583146
-e324655793.100125
+s324871549.810948
+e324871550.458376
 r1
 xCompileXIB
 x/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib
-lSLF07#2@40"CompileXIB Classes/MapViewController.xib324655792#324655793#0(0"0(0#0#67"/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib8651432768#654"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/MapViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@40"CompileXIB Classes/MapViewController.xib324871549#324871550#0(0"0(0#0#67"/Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib8644403968#654"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/MapViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/RegistrationViewController.xib
 s324655792.581785
@@ -826,12 +1326,12 @@ x/Users/jonstjohn/Documents/rendezvous/Classes/RegistrationViewController.xib
 lSLF07#2@49"CompileXIB Classes/RegistrationViewController.xib324655792#324655793#0(0"0(0#0#76"/Users/jonstjohn/Documents/rendezvous/Classes/RegistrationViewController.xib8651543488#672"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/RegistrationViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/RegistrationViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib
-s324747793.597160
-e324747794.287527
+s324814737.829020
+e324814738.608950
 r1
 xCompileXIB
 x/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib
-lSLF07#2@45"CompileXIB Classes/ScheduleViewController.xib324747793#324747794#0(0"0(0#0#72"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib8665274976#664"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/ScheduleViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@45"CompileXIB Classes/ScheduleViewController.xib324814737#324814738#0(0"0(0#0#72"/Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib8614903520#664"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/ScheduleViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/ScheduleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/SponsorViewController.xib
 s324680153.945689
@@ -853,12 +1353,12 @@ o/Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib:14: war
 lSLF07#2@44"CompileXIB Classes/SupportViewController.xib324660892#324660893#0(361"/* com.apple.ibtool.document.warnings *//Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib:18: warning: UITextView does not support data detectors when the text view is editable./Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib:14: warning: UITextView does not support data detectors when the text view is editable.2(22@74"UITextView does not support data detectors when the text view is editable.324660893#18446744073709551615#0#0(6@71"/Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib324660828#18#0#18#0#0"0(22@74"UITextView does not support data detectors when the text view is editable.324660893#18446744073709551615#0#0(6@71"/Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib324660828#14#0#14#0#0"0(0#0#71"/Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib8651163360#662"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/SupportViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/SupportViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib
-s324655793.100232
-e324655793.483180
+s324872734.796416
+e324872735.358140
 r1
 xCompileXIB
 x/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib
-lSLF07#2@44"CompileXIB Classes/WeatherViewController.xib324655793#324655793#0(0"0(0#0#71"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib8653203712#662"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/WeatherViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@44"CompileXIB Classes/WeatherViewController.xib324872734#324872735#0(0"0(0#0#71"/Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib8642681344#662"    cd /Users/jonstjohn/Documents/rendezvous    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/WeatherViewController.nib /Users/jonstjohn/Documents/rendezvous/Classes/WeatherViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/jonstjohn/Documents/rendezvous/MainWindow.xib
 s324646423.892479
@@ -931,6 +1431,105 @@ xbuild/Debug-iphonesimulator/rendezvous.app/83-calendar.png
 x83-calendar.png
 lSLF07#2@20"Copy 83-calendar.png324653218#324653218#0(0"0(0#0#53"/Users/jonstjohn/Documents/rendezvous/83-calendar.png8652739968#535"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/83-calendar.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
 
+CCpResource build/Debug-iphonesimulator/rendezvous.app/climbing.png climbing.png
+s324871511.379616
+e324871511.410116
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/climbing.png
+xclimbing.png
+lSLF07#2@17"Copy climbing.png324871511#324871511#0(0"0(0#0#50"/Users/jonstjohn/Documents/rendezvous/climbing.png8635797152#532"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/climbing.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy1.png cloudy1.png
+s324872350.757179
+e324872350.808514
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy1.png
+xcloudy1.png
+lSLF07#2@16"Copy cloudy1.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/cloudy1.png8638667456#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy1.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy1_night.png cloudy1_night.png
+s324872350.755725
+e324872350.808376
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy1_night.png
+xcloudy1_night.png
+lSLF07#2@22"Copy cloudy1_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/cloudy1_night.png8644972832#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy1_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy2.png cloudy2.png
+s324872350.772379
+e324872350.808855
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy2.png
+xcloudy2.png
+lSLF07#2@16"Copy cloudy2.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/cloudy2.png8647682880#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy2.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy2_night.png cloudy2_night.png
+s324872350.762876
+e324872350.808655
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy2_night.png
+xcloudy2_night.png
+lSLF07#2@22"Copy cloudy2_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/cloudy2_night.png8634776064#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy2_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy3.png cloudy3.png
+s324872350.789417
+e324872350.809386
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy3.png
+xcloudy3.png
+lSLF07#2@16"Copy cloudy3.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/cloudy3.png8653425376#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy3.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy3_night.png cloudy3_night.png
+s324872350.785842
+e324872350.809254
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy3_night.png
+xcloudy3_night.png
+lSLF07#2@22"Copy cloudy3_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/cloudy3_night.png8653843360#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy3_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy4.png cloudy4.png
+s324872350.800280
+e324872350.810257
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy4.png
+xcloudy4.png
+lSLF07#2@16"Copy cloudy4.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/cloudy4.png8651362176#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy4.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy4_night.png cloudy4_night.png
+s324872350.799393
+e324872350.810089
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy4_night.png
+xcloudy4_night.png
+lSLF07#2@22"Copy cloudy4_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/cloudy4_night.png8651577088#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy4_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/cloudy5.png cloudy5.png
+s324872350.805385
+e324872350.848319
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/cloudy5.png
+xcloudy5.png
+lSLF07#2@16"Copy cloudy5.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/cloudy5.png8651300096#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/cloudy5.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/court.png court.png
+s324871511.381908
+e324871511.409840
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/court.png
+xcourt.png
+lSLF07#2@14"Copy court.png324871511#324871511#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/court.png8607866144#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/court.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
 CCpResource build/Debug-iphonesimulator/rendezvous.app/dpm.jpg dpm.jpg
 s324688681.279119
 e324688681.323230
@@ -948,6 +1547,69 @@ xCpResource
 xbuild/Debug-iphonesimulator/rendezvous.app/dpm.png
 xdpm.png
 lSLF07#2@12"Copy dpm.png324690435#324690435#0(0"0(0#0#45"/Users/jonstjohn/Documents/rendezvous/dpm.png8653086848#527"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/dpm.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/dunno.png dunno.png
+s324872350.806671
+e324872350.848472
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/dunno.png
+xdunno.png
+lSLF07#2@14"Copy dunno.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/dunno.png8651170720#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/dunno.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/fog.png fog.png
+s324872350.818057
+e324872350.846729
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/fog.png
+xfog.png
+lSLF07#2@12"Copy fog.png324872350#324872350#0(0"0(0#0#45"/Users/jonstjohn/Documents/rendezvous/fog.png8650968096#527"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/fog.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/fog_night.png fog_night.png
+s324872350.810338
+e324872350.846498
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/fog_night.png
+xfog_night.png
+lSLF07#2@18"Copy fog_night.png324872350#324872350#0(0"0(0#0#51"/Users/jonstjohn/Documents/rendezvous/fog_night.png8651029344#533"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/fog_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/hail.png hail.png
+s324872350.820120
+e324872350.846896
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/hail.png
+xhail.png
+lSLF07#2@13"Copy hail.png324872350#324872350#0(0"0(0#0#46"/Users/jonstjohn/Documents/rendezvous/hail.png8650852736#528"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/hail.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/light_rain.png light_rain.png
+s324872350.827186
+e324872350.847025
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/light_rain.png
+xlight_rain.png
+lSLF07#2@19"Copy light_rain.png324872350#324872350#0(0"0(0#0#52"/Users/jonstjohn/Documents/rendezvous/light_rain.png8650653824#534"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/light_rain.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/mist.png mist.png
+s324872350.833137
+e324872350.848185
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/mist.png
+xmist.png
+lSLF07#2@13"Copy mist.png324872350#324872350#0(0"0(0#0#46"/Users/jonstjohn/Documents/rendezvous/mist.png8649822176#528"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/mist.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/mist_night.png mist_night.png
+s324872350.828001
+e324872350.847986
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/mist_night.png
+xmist_night.png
+lSLF07#2@19"Copy mist_night.png324872350#324872350#0(0"0(0#0#52"/Users/jonstjohn/Documents/rendezvous/mist_night.png8650460960#534"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/mist_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
 
 CCpResource build/Debug-iphonesimulator/rendezvous.app/mountain_hardware.gif mountain_hardware.gif
 s324688681.282872
@@ -967,6 +1629,15 @@ xbuild/Debug-iphonesimulator/rendezvous.app/mountain_hardware.png
 xmountain_hardware.png
 lSLF07#2@26"Copy mountain_hardware.png324690643#324690643#0(0"0(0#0#59"/Users/jonstjohn/Documents/rendezvous/mountain_hardware.png8628365728#541"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/mountain_hardware.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
 
+CCpResource build/Debug-iphonesimulator/rendezvous.app/overcast.png overcast.png
+s324872350.837420
+e324872350.906212
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/overcast.png
+xovercast.png
+lSLF07#2@17"Copy overcast.png324872350#324872350#0(0"0(0#0#50"/Users/jonstjohn/Documents/rendezvous/overcast.png8647895776#532"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/overcast.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
 CCpResource build/Debug-iphonesimulator/rendezvous.app/patagonia.jpg patagonia.jpg
 s324688681.284721
 e324688681.317843
@@ -985,6 +1656,204 @@ xbuild/Debug-iphonesimulator/rendezvous.app/patagonia.png
 xpatagonia.png
 lSLF07#2@18"Copy patagonia.png324690643#324690643#0(0"0(0#0#51"/Users/jonstjohn/Documents/rendezvous/patagonia.png8631389408#533"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/patagonia.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
 
+CCpResource build/Debug-iphonesimulator/rendezvous.app/shower1.png shower1.png
+s324872350.848581
+e324872350.904312
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/shower1.png
+xshower1.png
+lSLF07#2@16"Copy shower1.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/shower1.png8635416576#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/shower1.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/shower1_night.png shower1_night.png
+s324872350.841429
+e324872350.906364
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/shower1_night.png
+xshower1_night.png
+lSLF07#2@22"Copy shower1_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/shower1_night.png8647695712#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/shower1_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/shower2.png shower2.png
+s324872350.855377
+e324872350.905544
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/shower2.png
+xshower2.png
+lSLF07#2@16"Copy shower2.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/shower2.png8648313120#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/shower2.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/shower2_night.png shower2_night.png
+s324872350.852018
+e324872350.905357
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/shower2_night.png
+xshower2_night.png
+lSLF07#2@22"Copy shower2_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/shower2_night.png8651347040#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/shower2_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/shower3.png shower3.png
+s324872350.861367
+e324872350.905699
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/shower3.png
+xshower3.png
+lSLF07#2@16"Copy shower3.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/shower3.png8645133632#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/shower3.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/sleet.png sleet.png
+s324872350.872079
+e324872350.905890
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/sleet.png
+xsleet.png
+lSLF07#2@14"Copy sleet.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/sleet.png8639823488#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/sleet.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow1.png snow1.png
+s324872350.878132
+e324872350.906549
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow1.png
+xsnow1.png
+lSLF07#2@14"Copy snow1.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/snow1.png8642779648#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow1.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow1_night.png snow1_night.png
+s324872350.873014
+e324872350.906060
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow1_night.png
+xsnow1_night.png
+lSLF07#2@20"Copy snow1_night.png324872350#324872350#0(0"0(0#0#53"/Users/jonstjohn/Documents/rendezvous/snow1_night.png8650511360#535"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow1_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow2.png snow2.png
+s324872350.906894
+e324872350.979640
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow2.png
+xsnow2.png
+lSLF07#2@14"Copy snow2.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/snow2.png8635773472#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow2.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow2_night.png snow2_night.png
+s324872350.882500
+e324872350.906700
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow2_night.png
+xsnow2_night.png
+lSLF07#2@20"Copy snow2_night.png324872350#324872350#0(0"0(0#0#53"/Users/jonstjohn/Documents/rendezvous/snow2_night.png8599529056#535"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow2_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow3.png snow3.png
+s324872350.944647
+e324872350.981054
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow3.png
+xsnow3.png
+lSLF07#2@14"Copy snow3.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/snow3.png8643981440#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow3.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow3_night.png snow3_night.png
+s324872350.916217
+e324872350.979786
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow3_night.png
+xsnow3_night.png
+lSLF07#2@20"Copy snow3_night.png324872350#324872350#0(0"0(0#0#53"/Users/jonstjohn/Documents/rendezvous/snow3_night.png8653642112#535"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow3_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow4.png snow4.png
+s324872350.947961
+e324872350.981221
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow4.png
+xsnow4.png
+lSLF07#2@14"Copy snow4.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/snow4.png8651595232#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow4.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/snow5.png snow5.png
+s324872350.957970
+e324872350.981388
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/snow5.png
+xsnow5.png
+lSLF07#2@14"Copy snow5.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/snow5.png8642339232#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/snow5.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/sunny.png sunny.png
+s324872350.966161
+e324872350.981693
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/sunny.png
+xsunny.png
+lSLF07#2@14"Copy sunny.png324872350#324872350#0(0"0(0#0#47"/Users/jonstjohn/Documents/rendezvous/sunny.png8651313248#529"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/sunny.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/sunny_night.png sunny_night.png
+s324872350.959242
+e324872350.981523
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/sunny_night.png
+xsunny_night.png
+lSLF07#2@20"Copy sunny_night.png324872350#324872350#0(0"0(0#0#53"/Users/jonstjohn/Documents/rendezvous/sunny_night.png8645927424#535"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/sunny_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm1.png tstorm1.png
+s324872350.972925
+e324872350.991056
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/tstorm1.png
+xtstorm1.png
+lSLF07#2@16"Copy tstorm1.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/tstorm1.png8644123296#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/tstorm1.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm1_night.png tstorm1_night.png
+s324872350.970428
+e324872350.981830
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/tstorm1_night.png
+xtstorm1_night.png
+lSLF07#2@22"Copy tstorm1_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/tstorm1_night.png8647698592#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/tstorm1_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm2.png tstorm2.png
+s324872350.981934
+e324872350.990629
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/tstorm2.png
+xtstorm2.png
+lSLF07#2@16"Copy tstorm2.png324872350#324872350#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/tstorm2.png8651039584#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/tstorm2.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm2_night.png tstorm2_night.png
+s324872350.976598
+e324872350.990851
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/tstorm2_night.png
+xtstorm2_night.png
+lSLF07#2@22"Copy tstorm2_night.png324872350#324872350#0(0"0(0#0#55"/Users/jonstjohn/Documents/rendezvous/tstorm2_night.png8644888576#537"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/tstorm2_night.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/tstorm3.png tstorm3.png
+s324872350.988288
+e324872350.996647
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/tstorm3.png
+xtstorm3.png
+lSLF07#2@16"Copy tstorm3.png324872350#324872351#0(0"0(0#0#49"/Users/jonstjohn/Documents/rendezvous/tstorm3.png8598955136#531"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/tstorm3.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
+CCpResource build/Debug-iphonesimulator/rendezvous.app/vous_logo.png vous_logo.png
+s324814126.055749
+e324814126.077674
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/rendezvous.app/vous_logo.png
+xvous_logo.png
+lSLF07#2@18"Copy vous_logo.png324814126#324814126#0(0"0(0#0#51"/Users/jonstjohn/Documents/rendezvous/vous_logo.png8606090048#533"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jonstjohn/Documents/rendezvous/vous_logo.png /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+
 CDataModelVersionCompile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous.momd /Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld
 s324680154.559041
 e324680154.630054
@@ -996,23 +1865,23 @@ o/Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld/rendezvous.xcdata
 lSLF07#2@106"DataModelVersionCompile build/Debug-iphonesimulator/rendezvous.app/rendezvous.momd rendezvous.xcdatamodeld324680154#324680154#0(212"/Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld/rendezvous.xcdatamodel:event.description: warning: event.description -- property name conflicts with a method already on NSObject or NSManagedObject 1(22@98"event.description -- property name conflicts with a method already on NSObject or NSManagedObject 324680154#18446744073709551615#0#0(6@84"/Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld/rendezvous.xcdatamodel324663054#0#0#0#0#0"0(0#0#61"/Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld8664463040#454"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/jonstjohn/Documents/rendezvous/rendezvous.xcdatamodeld /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous.momd0#
 
 CGenerateDSYMFile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous
-s324747794.655971
-e324747794.698448
+s324872232.907346
+e324872232.954751
 r1
 xGenerateDSYMFile
 x/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM
 x/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/rendezvous.app.dSYM build/Debug-iphonesimulator/rendezvous.app/rendezvous324747794#324747794#0(0"0(0#0#91"/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous8668548160#451"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous -o /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/rendezvous.app.dSYM build/Debug-iphonesimulator/rendezvous.app/rendezvous324872232#324872232#0(0"0(0#0#91"/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous8638651168#451"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous -o /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app.dSYM0#
 
 CLd /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous normal i386
-s324747794.604568
-e324747794.655853
+s324872232.855312
+e324872232.907125
 r1
 xLd
 x/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous
 xnormal
 xi386
-lSLF07#2@96"Link /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous324747794#324747794#0(0"0(0#0#0"8671905664#992"    cd /Users/jonstjohn/Documents/rendezvous    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -filelist /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvous.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous0#
+lSLF07#2@96"Link /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous324872232#324872232#0(0"0(0#0#0"8647865536#1034"    cd /Users/jonstjohn/Documents/rendezvous    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -filelist /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/Objects-normal/i386/rendezvous.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework MapKit -framework CoreLocation -o /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/rendezvous0#
 
 CProcessInfoPlistFile /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app/Info.plist rendezvous-Info.plist
 s324646423.889211
@@ -1037,10 +1906,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile rendezvous_Prefix.pch324646424#324646425#0(0"0(0#0#59"/Users/jonstjohn/Documents/rendezvous/rendezvous_Prefix.pch8653541024#1915"    cd /Users/jonstjohn/Documents/rendezvous    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-generated-files.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-own-target-headers.hmap -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-all-target-headers.hmap -iquote /Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/rendezvous-project-headers.hmap -F/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator -I/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/include -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources/i386 -I/Users/jonstjohn/Documents/rendezvous/build/rendezvous.build/Debug-iphonesimulator/rendezvous.build/DerivedSources -c /Users/jonstjohn/Documents/rendezvous/rendezvous_Prefix.pch -o /var/folders/A0/A0MP-mDtGO4mPd3lutF79++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/rendezvous_Prefix-bjkdarsdsktmfedfxeecpnlesaff/rendezvous_Prefix.pch.gch0#
 
 CTouch /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app
-s324747794.698555
-e324747794.702016
+s324872735.360730
+e324872735.364413
 r1
 xTouch
 x/Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app
-lSLF07#2@86"Touch /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app324747794#324747794#0(0"0(0#0#0"8668250528#341"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
+lSLF07#2@86"Touch /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app324872735#324872735#0(0"0(0#0#0"8650917984#341"    cd /Users/jonstjohn/Documents/rendezvous    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jonstjohn/Documents/rendezvous/build/Debug-iphonesimulator/rendezvous.app0#
 

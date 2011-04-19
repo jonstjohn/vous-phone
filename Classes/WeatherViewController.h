@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface WeatherViewController : UIViewController {
-
+@interface WeatherViewController : UIViewController <UITableViewDelegate> {
+	NSMutableArray *days;
+	IBOutlet UITableView *myTable;
+	IBOutlet UIActivityIndicatorView *activityIndicator;
+	NSMutableData *responseData;
 }
 
 @end

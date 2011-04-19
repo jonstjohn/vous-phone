@@ -13,6 +13,7 @@
 @interface ScheduleViewController : UIViewController <UITableViewDelegate> {
 	IBOutlet UITableView *eventTable;
 	IBOutlet UITableViewCell *loadingCell;
+	IBOutlet UIActivityIndicatorView *loadingIndicator;
 	NSMutableArray *events;
 	NSMutableData *responseData;
 	NSString *requestUrl;

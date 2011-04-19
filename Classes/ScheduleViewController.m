@@ -72,11 +72,12 @@
 	
 	NSString *lastUpdated = [prefs stringForKey: @"scheduledUpdated"];
 	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
-	
+
 	// Cache data for one day
 	if ([events count] == 0 || ![lastUpdated isEqualToString: currentDate]) {
 	
-		[loadingCell setHidden: NO];
+		[[self view] bringSubviewToFront: loadingIndicator];
+		[loadingIndicator startAnimating];
 		responseData = [[NSMutableData data] retain];
 		NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: requestUrl]];
 		[[NSURLConnection alloc] initWithRequest:request delegate:self];
@@ -143,7 +144,7 @@
 	NSLog(@"connection done");
 	
 	//[responseString release];
-	[loadingCell setHidden: YES];
+	[loadingIndicator stopAnimating];
 	[eventTable reloadData];
 	
 }
