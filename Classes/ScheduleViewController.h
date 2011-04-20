@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "JSON.h"
+#import "EventViewController.h"
 
 
 @interface ScheduleViewController : UIViewController <UITableViewDelegate> {
@@ -17,6 +18,8 @@
 	NSMutableArray *events;
 	NSMutableData *responseData;
 	NSString *requestUrl;
+	EventViewController *eventController;
+	
 }
 
 @end

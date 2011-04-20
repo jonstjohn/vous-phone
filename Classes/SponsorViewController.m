@@ -18,34 +18,34 @@
 	sponsors = [[NSArray alloc] initWithObjects: 
 
 				[NSDictionary dictionaryWithObjectsAndKeys:
-				    @"Dead Point Magazine", @"name", @"deadpointmag.com", @"website", @"dpm.png", @"logo", nil
+				    @"Dead Point Magazine", @"name", @"deadpointmag.com", @"website", @"150_DPM-logo.jpg", @"logo", nil
 				],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Mountain Hardwear", @"name", @"mountainhardwear.com", @"website", @"mountain_hardware.png", @"logo", nil
+					@"Mountain Hardwear", @"name", @"mountainhardwear.com", @"website", @"150_Mtn_Hdwr.4c.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Patagonia", @"name", @"patagonia.com", @"website", @"patagonia.png", @"logo", nil
+					@"Patagonia", @"name", @"patagonia.com", @"website", @"150_Patagonia-Word-Logo.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"La Sportiva", @"name", @"lasportiva.com", @"website", @"dpm.png", @"logo", nil
+					@"La Sportiva", @"name", @"lasportiva.com", @"website", @"150_Half-Mtn-Lg_1.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Five Ten", @"name", @"fiveten.com", @"website", @"dpm.png", @"logo", nil
+					@"Five Ten", @"name", @"fiveten.com", @"website", @"100_fivetenlogo.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Petzl", @"name", @"petzl.com", @"website", @"dpm.png", @"logo", nil
+					@"Petzl", @"name", @"petzl.com", @"website", @"100_petzl_logo.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Sanuk", @"name", @"sanuk.com", @"website", @"dpm.png", @"logo", nil
+					@"Sanuk", @"name", @"sanuk.com", @"website", @"100_logo_box_web.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Scarpa", @"name", @"scarpa.com", @"website", @"103-map.png", @"logo", nil
+					@"Scarpa", @"name", @"scarpa.com", @"website", @"100_scarpa_logo.jpg", @"logo", nil
 				],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Osprey", @"name", @"ospreypacks.com", @"website", @"103-map.png", @"logo", nil
+					@"Osprey", @"name", @"ospreypacks.com", @"website", @"100_Osprey-Logo.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Black Diamond", @"name", @"bdel.com", @"website", @"103-map.png", @"logo", nil
+					@"Black Diamond", @"name", @"bdel.com", @"website", @"100_BlackDiamond.jpg", @"logo", nil
 				 ],
 				[NSDictionary dictionaryWithObjectsAndKeys:
 					@"Sterling Rope", @"name", @"sterlingrope.com", @"website", @"103-map.png", @"logo", nil

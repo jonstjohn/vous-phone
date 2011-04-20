@@ -93,6 +93,35 @@
 		60CFCEA6135D2898009160F6 /* tstorm2_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCE80135D2898009160F6 /* tstorm2_night.png */; };
 		60CFCEA7135D2898009160F6 /* tstorm2.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCE81135D2898009160F6 /* tstorm2.png */; };
 		60CFCEA8135D2898009160F6 /* tstorm3.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCE82135D2898009160F6 /* tstorm3.png */; };
+		60CFCEE8135E6D1E009160F6 /* 100_BlackDiamond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCECD135E6D1D009160F6 /* 100_BlackDiamond.jpg */; };
+		60CFCEE9135E6D1E009160F6 /* 100_chaco_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCECE135E6D1D009160F6 /* 100_chaco_logo.jpg */; };
+		60CFCEEA135E6D1E009160F6 /* 100_darn-tough-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCECF135E6D1D009160F6 /* 100_darn-tough-logo.jpg */; };
+		60CFCEEB135E6D1E009160F6 /* 100_evolv100x100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED0135E6D1D009160F6 /* 100_evolv100x100.jpg */; };
+		60CFCEEC135E6D1E009160F6 /* 100_fivetenlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED1135E6D1D009160F6 /* 100_fivetenlogo.jpg */; };
+		60CFCEED135E6D1E009160F6 /* 100_Fox_Mountain_Guides_Website.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED2135E6D1D009160F6 /* 100_Fox_Mountain_Guides_Website.jpg */; };
+		60CFCEEE135E6D1E009160F6 /* 100_FriksnLogo08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED3135E6D1D009160F6 /* 100_FriksnLogo08.jpg */; };
+		60CFCEEF135E6D1E009160F6 /* 100_logo_box_web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED4135E6D1D009160F6 /* 100_logo_box_web.jpg */; };
+		60CFCEF0135E6D1E009160F6 /* 100_mammut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED5135E6D1D009160F6 /* 100_mammut.jpg */; };
+		60CFCEF1135E6D1E009160F6 /* 100_Misty-Mtn-Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED6135E6D1D009160F6 /* 100_Misty-Mtn-Color.jpg */; };
+		60CFCEF2135E6D1E009160F6 /* 100_mk_logo_web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED7135E6D1D009160F6 /* 100_mk_logo_web.jpg */; };
+		60CFCEF3135E6D1E009160F6 /* 100_NUTRIEX-short.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED8135E6D1D009160F6 /* 100_NUTRIEX-short.jpg */; };
+		60CFCEF4135E6D1E009160F6 /* 100_Osprey-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCED9135E6D1D009160F6 /* 100_Osprey-Logo.jpg */; };
+		60CFCEF5135E6D1E009160F6 /* 100_petzl_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDA135E6D1D009160F6 /* 100_petzl_logo.jpg */; };
+		60CFCEF6135E6D1E009160F6 /* 100_Prana_Logo_Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDB135E6D1D009160F6 /* 100_Prana_Logo_Black.jpg */; };
+		60CFCEF7135E6D1E009160F6 /* 100_scarpa_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDC135E6D1D009160F6 /* 100_scarpa_logo.jpg */; };
+		60CFCEF8135E6D1E009160F6 /* 100_So_iLL_Outline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDD135E6D1D009160F6 /* 100_So_iLL_Outline.jpg */; };
+		60CFCEF9135E6D1E009160F6 /* 100_STERLING-logo-_Converted_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDE135E6D1D009160F6 /* 100_STERLING-logo-_Converted_.jpg */; };
+		60CFCEFA135E6D1E009160F6 /* 100_TrangoOvalLogo_2_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEDF135E6D1D009160F6 /* 100_TrangoOvalLogo_2_.jpg */; };
+		60CFCEFB135E6D1E009160F6 /* 100_WW_Logo-TIFF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE0135E6D1D009160F6 /* 100_WW_Logo-TIFF.jpg */; };
+		60CFCEFC135E6D1E009160F6 /* 150_DPM-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE1135E6D1D009160F6 /* 150_DPM-logo.jpg */; };
+		60CFCEFD135E6D1E009160F6 /* 150_Half-Mtn-Lg_1_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE2135E6D1D009160F6 /* 150_Half-Mtn-Lg_1_.jpg */; };
+		60CFCEFE135E6D1E009160F6 /* 150_Metolious-Web-Lg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE3135E6D1D009160F6 /* 150_Metolious-Web-Lg.jpg */; };
+		60CFCEFF135E6D1E009160F6 /* 150_Mtn_Hdwr.4c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE4135E6D1D009160F6 /* 150_Mtn_Hdwr.4c.jpg */; };
+		60CFCF00135E6D1E009160F6 /* 150_nom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE5135E6D1E009160F6 /* 150_nom.jpg */; };
+		60CFCF01135E6D1E009160F6 /* 150_ORlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE6135E6D1E009160F6 /* 150_ORlogo.jpg */; };
+		60CFCF02135E6D1E009160F6 /* 150_Patagonia-Word-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCEE7135E6D1E009160F6 /* 150_Patagonia-Word-Logo.jpg */; };
+		60CFCF13135E716A009160F6 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFCF11135E716A009160F6 /* EventViewController.m */; };
+		60CFCF14135E716A009160F6 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CFCF12135E716A009160F6 /* EventViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +230,36 @@
 		60CFCE80135D2898009160F6 /* tstorm2_night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm2_night.png; sourceTree = "<group>"; };
 		60CFCE81135D2898009160F6 /* tstorm2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm2.png; sourceTree = "<group>"; };
 		60CFCE82135D2898009160F6 /* tstorm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm3.png; sourceTree = "<group>"; };
+		60CFCECD135E6D1D009160F6 /* 100_BlackDiamond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_BlackDiamond.jpg; sourceTree = "<group>"; };
+		60CFCECE135E6D1D009160F6 /* 100_chaco_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_chaco_logo.jpg; sourceTree = "<group>"; };
+		60CFCECF135E6D1D009160F6 /* 100_darn-tough-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_darn-tough-logo.jpg"; sourceTree = "<group>"; };
+		60CFCED0135E6D1D009160F6 /* 100_evolv100x100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_evolv100x100.jpg; sourceTree = "<group>"; };
+		60CFCED1135E6D1D009160F6 /* 100_fivetenlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_fivetenlogo.jpg; sourceTree = "<group>"; };
+		60CFCED2135E6D1D009160F6 /* 100_Fox_Mountain_Guides_Website.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_Fox_Mountain_Guides_Website.jpg; sourceTree = "<group>"; };
+		60CFCED3135E6D1D009160F6 /* 100_FriksnLogo08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_FriksnLogo08.jpg; sourceTree = "<group>"; };
+		60CFCED4135E6D1D009160F6 /* 100_logo_box_web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_logo_box_web.jpg; sourceTree = "<group>"; };
+		60CFCED5135E6D1D009160F6 /* 100_mammut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_mammut.jpg; sourceTree = "<group>"; };
+		60CFCED6135E6D1D009160F6 /* 100_Misty-Mtn-Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_Misty-Mtn-Color.jpg"; sourceTree = "<group>"; };
+		60CFCED7135E6D1D009160F6 /* 100_mk_logo_web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_mk_logo_web.jpg; sourceTree = "<group>"; };
+		60CFCED8135E6D1D009160F6 /* 100_NUTRIEX-short.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_NUTRIEX-short.jpg"; sourceTree = "<group>"; };
+		60CFCED9135E6D1D009160F6 /* 100_Osprey-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_Osprey-Logo.jpg"; sourceTree = "<group>"; };
+		60CFCEDA135E6D1D009160F6 /* 100_petzl_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_petzl_logo.jpg; sourceTree = "<group>"; };
+		60CFCEDB135E6D1D009160F6 /* 100_Prana_Logo_Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_Prana_Logo_Black.jpg; sourceTree = "<group>"; };
+		60CFCEDC135E6D1D009160F6 /* 100_scarpa_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_scarpa_logo.jpg; sourceTree = "<group>"; };
+		60CFCEDD135E6D1D009160F6 /* 100_So_iLL_Outline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_So_iLL_Outline.jpg; sourceTree = "<group>"; };
+		60CFCEDE135E6D1D009160F6 /* 100_STERLING-logo-_Converted_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_STERLING-logo-_Converted_.jpg"; sourceTree = "<group>"; };
+		60CFCEDF135E6D1D009160F6 /* 100_TrangoOvalLogo_2_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100_TrangoOvalLogo_2_.jpg; sourceTree = "<group>"; };
+		60CFCEE0135E6D1D009160F6 /* 100_WW_Logo-TIFF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100_WW_Logo-TIFF.jpg"; sourceTree = "<group>"; };
+		60CFCEE1135E6D1D009160F6 /* 150_DPM-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150_DPM-logo.jpg"; sourceTree = "<group>"; };
+		60CFCEE2135E6D1D009160F6 /* 150_Half-Mtn-Lg_1_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150_Half-Mtn-Lg_1_.jpg"; sourceTree = "<group>"; };
+		60CFCEE3135E6D1D009160F6 /* 150_Metolious-Web-Lg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150_Metolious-Web-Lg.jpg"; sourceTree = "<group>"; };
+		60CFCEE4135E6D1D009160F6 /* 150_Mtn_Hdwr.4c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 150_Mtn_Hdwr.4c.jpg; sourceTree = "<group>"; };
+		60CFCEE5135E6D1E009160F6 /* 150_nom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 150_nom.jpg; sourceTree = "<group>"; };
+		60CFCEE6135E6D1E009160F6 /* 150_ORlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 150_ORlogo.jpg; sourceTree = "<group>"; };
+		60CFCEE7135E6D1E009160F6 /* 150_Patagonia-Word-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150_Patagonia-Word-Logo.jpg"; sourceTree = "<group>"; };
+		60CFCF10135E716A009160F6 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		60CFCF11135E716A009160F6 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		60CFCF12135E716A009160F6 /* EventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* rendezvous-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "rendezvous-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,6 +291,9 @@
 				6077B6311359CFF4006C58C0 /* ScheduleViewController.h */,
 				6077B6321359CFF4006C58C0 /* ScheduleViewController.m */,
 				6077B6331359CFF4006C58C0 /* ScheduleViewController.xib */,
+				60CFCF10135E716A009160F6 /* EventViewController.h */,
+				60CFCF11135E716A009160F6 /* EventViewController.m */,
+				60CFCF12135E716A009160F6 /* EventViewController.xib */,
 				6077B65A1359D458006C58C0 /* SupportViewController.h */,
 				6077B65B1359D458006C58C0 /* SupportViewController.m */,
 				6077B65C1359D458006C58C0 /* SupportViewController.xib */,
@@ -331,6 +393,33 @@
 				6077B759135A5B03006C58C0 /* dpm.jpg */,
 				6077B75A135A5B03006C58C0 /* mountain_hardware.gif */,
 				6077B75B135A5B03006C58C0 /* patagonia.jpg */,
+				60CFCECD135E6D1D009160F6 /* 100_BlackDiamond.jpg */,
+				60CFCECE135E6D1D009160F6 /* 100_chaco_logo.jpg */,
+				60CFCECF135E6D1D009160F6 /* 100_darn-tough-logo.jpg */,
+				60CFCED0135E6D1D009160F6 /* 100_evolv100x100.jpg */,
+				60CFCED1135E6D1D009160F6 /* 100_fivetenlogo.jpg */,
+				60CFCED2135E6D1D009160F6 /* 100_Fox_Mountain_Guides_Website.jpg */,
+				60CFCED3135E6D1D009160F6 /* 100_FriksnLogo08.jpg */,
+				60CFCED4135E6D1D009160F6 /* 100_logo_box_web.jpg */,
+				60CFCED5135E6D1D009160F6 /* 100_mammut.jpg */,
+				60CFCED6135E6D1D009160F6 /* 100_Misty-Mtn-Color.jpg */,
+				60CFCED7135E6D1D009160F6 /* 100_mk_logo_web.jpg */,
+				60CFCED8135E6D1D009160F6 /* 100_NUTRIEX-short.jpg */,
+				60CFCED9135E6D1D009160F6 /* 100_Osprey-Logo.jpg */,
+				60CFCEDA135E6D1D009160F6 /* 100_petzl_logo.jpg */,
+				60CFCEDB135E6D1D009160F6 /* 100_Prana_Logo_Black.jpg */,
+				60CFCEDC135E6D1D009160F6 /* 100_scarpa_logo.jpg */,
+				60CFCEDD135E6D1D009160F6 /* 100_So_iLL_Outline.jpg */,
+				60CFCEDE135E6D1D009160F6 /* 100_STERLING-logo-_Converted_.jpg */,
+				60CFCEDF135E6D1D009160F6 /* 100_TrangoOvalLogo_2_.jpg */,
+				60CFCEE0135E6D1D009160F6 /* 100_WW_Logo-TIFF.jpg */,
+				60CFCEE1135E6D1D009160F6 /* 150_DPM-logo.jpg */,
+				60CFCEE2135E6D1D009160F6 /* 150_Half-Mtn-Lg_1_.jpg */,
+				60CFCEE3135E6D1D009160F6 /* 150_Metolious-Web-Lg.jpg */,
+				60CFCEE4135E6D1D009160F6 /* 150_Mtn_Hdwr.4c.jpg */,
+				60CFCEE5135E6D1E009160F6 /* 150_nom.jpg */,
+				60CFCEE6135E6D1E009160F6 /* 150_ORlogo.jpg */,
+				60CFCEE7135E6D1E009160F6 /* 150_Patagonia-Word-Logo.jpg */,
 			);
 			name = sponsor;
 			sourceTree = "<group>";
@@ -509,6 +598,34 @@
 				60CFCEA6135D2898009160F6 /* tstorm2_night.png in Resources */,
 				60CFCEA7135D2898009160F6 /* tstorm2.png in Resources */,
 				60CFCEA8135D2898009160F6 /* tstorm3.png in Resources */,
+				60CFCEE8135E6D1E009160F6 /* 100_BlackDiamond.jpg in Resources */,
+				60CFCEE9135E6D1E009160F6 /* 100_chaco_logo.jpg in Resources */,
+				60CFCEEA135E6D1E009160F6 /* 100_darn-tough-logo.jpg in Resources */,
+				60CFCEEB135E6D1E009160F6 /* 100_evolv100x100.jpg in Resources */,
+				60CFCEEC135E6D1E009160F6 /* 100_fivetenlogo.jpg in Resources */,
+				60CFCEED135E6D1E009160F6 /* 100_Fox_Mountain_Guides_Website.jpg in Resources */,
+				60CFCEEE135E6D1E009160F6 /* 100_FriksnLogo08.jpg in Resources */,
+				60CFCEEF135E6D1E009160F6 /* 100_logo_box_web.jpg in Resources */,
+				60CFCEF0135E6D1E009160F6 /* 100_mammut.jpg in Resources */,
+				60CFCEF1135E6D1E009160F6 /* 100_Misty-Mtn-Color.jpg in Resources */,
+				60CFCEF2135E6D1E009160F6 /* 100_mk_logo_web.jpg in Resources */,
+				60CFCEF3135E6D1E009160F6 /* 100_NUTRIEX-short.jpg in Resources */,
+				60CFCEF4135E6D1E009160F6 /* 100_Osprey-Logo.jpg in Resources */,
+				60CFCEF5135E6D1E009160F6 /* 100_petzl_logo.jpg in Resources */,
+				60CFCEF6135E6D1E009160F6 /* 100_Prana_Logo_Black.jpg in Resources */,
+				60CFCEF7135E6D1E009160F6 /* 100_scarpa_logo.jpg in Resources */,
+				60CFCEF8135E6D1E009160F6 /* 100_So_iLL_Outline.jpg in Resources */,
+				60CFCEF9135E6D1E009160F6 /* 100_STERLING-logo-_Converted_.jpg in Resources */,
+				60CFCEFA135E6D1E009160F6 /* 100_TrangoOvalLogo_2_.jpg in Resources */,
+				60CFCEFB135E6D1E009160F6 /* 100_WW_Logo-TIFF.jpg in Resources */,
+				60CFCEFC135E6D1E009160F6 /* 150_DPM-logo.jpg in Resources */,
+				60CFCEFD135E6D1E009160F6 /* 150_Half-Mtn-Lg_1_.jpg in Resources */,
+				60CFCEFE135E6D1E009160F6 /* 150_Metolious-Web-Lg.jpg in Resources */,
+				60CFCEFF135E6D1E009160F6 /* 150_Mtn_Hdwr.4c.jpg in Resources */,
+				60CFCF00135E6D1E009160F6 /* 150_nom.jpg in Resources */,
+				60CFCF01135E6D1E009160F6 /* 150_ORlogo.jpg in Resources */,
+				60CFCF02135E6D1E009160F6 /* 150_Patagonia-Word-Logo.jpg in Resources */,
+				60CFCF14135E716A009160F6 /* EventViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +654,7 @@
 				6077B7C4135B000C006C58C0 /* SBJsonWriter.m in Sources */,
 				60CFCDA5135D2195009160F6 /* MapPoint.m in Sources */,
 				60CFCE41135D276B009160F6 /* AreaDailyCell.m in Sources */,
+				60CFCF13135E716A009160F6 /* EventViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +683,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = rendezvous_Prefix.pch;
 				INFOPLIST_FILE = "rendezvous-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = rendezvous;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -578,6 +697,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -591,6 +711,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;

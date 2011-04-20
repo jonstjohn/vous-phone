@@ -42,6 +42,8 @@
 	[[cell textLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"n"]]];
 	[[cell detailTextLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"t"]]];
 	
+	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
+	
 	return cell;
 }
 
@@ -54,6 +56,18 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	
 	return [[events objectAtIndex: section] objectForKey: @"n"];
+	
+}
+
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath
+{	
+	if (eventController == nil) {
+		eventController = [[EventViewController alloc] init];
+	}
+	NSDictionary *event = [[[events objectAtIndex: [indexPath section]] objectForKey: @"e"] objectAtIndex: [indexPath row]];
+	[eventController setEventId: [event objectForKey: @"id"]];
+	[[self navigationController] pushViewController:eventController animated: YES];
+	return;
 	
 }
 	
@@ -152,6 +166,7 @@
 
 - (void)dealloc {
 	[events release];
+	[eventController release];
     [super dealloc];
 }
 
