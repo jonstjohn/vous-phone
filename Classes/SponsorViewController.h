@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SponsorDetailViewController.h"
 
 
 @interface SponsorViewController : UIViewController <UITableViewDelegate> {
-	UITableView *sponsorTable;
-	NSArray *sponsors;
+	IBOutlet UITableView *sponsorTable;
+	NSMutableArray *sponsors;
+	IBOutlet UIActivityIndicatorView *loadingIndicator;
+	SponsorDetailViewController *detailController;
+	NSMutableData *responseData;
 }
 
 @end

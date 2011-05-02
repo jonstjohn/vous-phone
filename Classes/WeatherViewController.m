@@ -105,6 +105,7 @@
 	[super viewDidAppear: animated];
 	[[self navigationController] setNavigationBarHidden: NO];
 	
+	[[self view] bringSubviewToFront: activityIndicator]; 
 	[activityIndicator setHidesWhenStopped: NO];
 	[activityIndicator startAnimating];
 	
@@ -149,7 +150,7 @@
 		[[cell conditionsLabel] setHidden: NO];
 	}
 	
-	[[cell iconImage] setImage: [UIImage imageNamed: [[days objectAtIndex: [indexPath row]] objectForKey: @"sy"]]];
+	[[cell iconImage] setImage: [UIImage imageNamed: [NSString stringWithFormat: @"%@.png", [[days objectAtIndex: [indexPath row]] objectForKey: @"sy"]]]];
 	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 	return cell;
 }

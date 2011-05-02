@@ -10,11 +10,15 @@
 
 
 @interface SponsorTableCell : UITableViewCell {
-
+	NSString *sponsorId;
+	UILabel *nameLabel;
+	UILabel *websiteLabel;
+	UIImageView *logoImage;
 }
 
-- (void) setTitle: (NSString *) title;
-- (void) setSubtitle: (NSString *) subtitle;
-- (void) setLogo: (NSString *) imageName;
+@property (nonatomic, retain) NSString *sponsorId;
+@property (nonatomic, retain) UILabel *nameLabel;
+@property (nonatomic, retain) UILabel *websiteLabel;
+@property (nonatomic, retain) UIImageView *logoImage;
 
 @end

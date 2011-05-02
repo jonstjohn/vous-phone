@@ -112,6 +112,10 @@
 		<data>
 		hIPjhcNNRrKaEEMVPoqMCEMJ8KE=
 		</data>
+		<key>150_Metolius-Web-Lg.jpg</key>
+		<data>
+		hIPjhcNNRrKaEEMVPoqMCEMJ8KE=
+		</data>
 		<key>150_Mtn_Hdwr.4c.jpg</key>
 		<data>
 		QTbrVzuCQMbBycRlbPHVL9MnejE=
@@ -140,9 +144,13 @@
 		<data>
 		+8htAAfStTp8/kePwemXgOcUmmQ=
 		</data>
+		<key>EventViewController.nib</key>
+		<data>
+		1HwEcGxjxyTRTXNKci50Xwj6FtE=
+		</data>
 		<key>HomeViewController.nib</key>
 		<data>
-		QxIC41IoJDbTzEKFWjKfFAdgbUc=
+		giakzupimJxWiZZarIcvPFDG/Js=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -158,15 +166,19 @@
 		</data>
 		<key>RegistrationViewController.nib</key>
 		<data>
-		RRhHJvInlP0OdcqXNX2a0eoJOY8=
+		dlYUo/mF9FHUy0T+QLp4jbQzYrM=
 		</data>
 		<key>ScheduleViewController.nib</key>
 		<data>
-		6/V/tx0o0OL/Dk1ak2NyPZcLlmM=
+		YSfRRrNgxX59XrHvDymZH2GYVEs=
+		</data>
+		<key>SponsorDetailViewController.nib</key>
+		<data>
+		CXfEyENne12+vn6D1Lr0WUd1TW8=
 		</data>
 		<key>SponsorViewController.nib</key>
 		<data>
-		C3PJgMd+EaxPBtIxv8ArH6P+uts=
+		S7tEWfUrxQdCHQ9TgLFeAAXX9BE=
 		</data>
 		<key>SupportViewController.nib</key>
 		<data>
@@ -174,7 +186,11 @@
 		</data>
 		<key>WeatherViewController.nib</key>
 		<data>
-		dprUjQMqbxUROs8DIk282nxea5o=
+		HOMqtZuJmcKXKRt6OpQUsycznrA=
+		</data>
+		<key>calendar_32.png</key>
+		<data>
+		0Ke1qRTGjYsrkM8g5JR6n8I3mYg=
 		</data>
 		<key>climbing.png</key>
 		<data>
@@ -234,7 +250,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		pE1RA1htIKAo5B2qzJvDj+5ag4M=
+		MFUVZd/uOO9mSqmi70g5k5AvmAo=
 		</data>
 		<key>fog.png</key>
 		<data>
@@ -244,9 +260,21 @@
 		<data>
 		EbR+D1//CLlD52PRKzfsfyuTAYk=
 		</data>
+		<key>globe_32.png</key>
+		<data>
+		nGCBO+QUCpvvxqgfZImQ6SrSofg=
+		</data>
 		<key>hail.png</key>
 		<data>
 		ceekxb3I48X253h9VRrLR+LSkkM=
+		</data>
+		<key>help_32.png</key>
+		<data>
+		3p7ZumnUEDC8yf/qccvQ904fUTc=
+		</data>
+		<key>icon.png</key>
+		<data>
+		sHaDuJp/xlVXEiHXP6xsVv25N7U=
 		</data>
 		<key>light_rain.png</key>
 		<data>
@@ -279,6 +307,10 @@
 		<key>patagonia.png</key>
 		<data>
 		AuiImPqEbtAWEEfuWMnOep0fIok=
+		</data>
+		<key>pencil_32.png</key>
+		<data>
+		dhdwqNCoR6EIiYLMlxnPHEbOnc8=
 		</data>
 		<key>rendezvous.momd/rendezvous.mom</key>
 		<data>
@@ -340,6 +372,14 @@
 		<data>
 		0Ebye9ZPGdU/COftLYsrqggkUJk=
 		</data>
+		<key>star.png</key>
+		<data>
+		u3V7uDLgejWmMKHtvvRzYrWOQp4=
+		</data>
+		<key>sun 2.png</key>
+		<data>
+		Qt+a0iYBB3yWQsuVGzMXiqZC6HQ=
+		</data>
 		<key>sunny.png</key>
 		<data>
 		TiYSFcpiw+JS60Sr0+i/Gj/znhU=
@@ -368,9 +408,21 @@
 		<data>
 		x5AI25nxL8P73iEcpQi2wL4DZNM=
 		</data>
+		<key>user_32.png</key>
+		<data>
+		dDLsKZzZchDONQQDFUqjL7p+ErE=
+		</data>
+		<key>users.png</key>
+		<data>
+		YV8/5Qu51QQwuRtradxGLHHgeek=
+		</data>
 		<key>vous_logo.png</key>
 		<data>
 		5J6L+OiQzokcDYZjiMTQEatceCQ=
+		</data>
+		<key>vous_logo2.png</key>
+		<data>
+		QU6n4z1dT3q/x0fJvQ6bWuMV0rQ=
 		</data>
 	</dict>
 	<key>rules</key>

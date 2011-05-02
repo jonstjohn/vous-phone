@@ -15,89 +15,7 @@
 - (id) init
 {
 	// Setup sponsors array
-	sponsors = [[NSArray alloc] initWithObjects: 
-
-				[NSDictionary dictionaryWithObjectsAndKeys:
-				    @"Dead Point Magazine", @"name", @"deadpointmag.com", @"website", @"150_DPM-logo.jpg", @"logo", nil
-				],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Mountain Hardwear", @"name", @"mountainhardwear.com", @"website", @"150_Mtn_Hdwr.4c.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Patagonia", @"name", @"patagonia.com", @"website", @"150_Patagonia-Word-Logo.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"La Sportiva", @"name", @"lasportiva.com", @"website", @"150_Half-Mtn-Lg_1.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Five Ten", @"name", @"fiveten.com", @"website", @"100_fivetenlogo.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Petzl", @"name", @"petzl.com", @"website", @"100_petzl_logo.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Sanuk", @"name", @"sanuk.com", @"website", @"100_logo_box_web.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Scarpa", @"name", @"scarpa.com", @"website", @"100_scarpa_logo.jpg", @"logo", nil
-				],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Osprey", @"name", @"ospreypacks.com", @"website", @"100_Osprey-Logo.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Black Diamond", @"name", @"bdel.com", @"website", @"100_BlackDiamond.jpg", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Sterling Rope", @"name", @"sterlingrope.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Trango", @"name", @"trango.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Outdoor Research", @"name", @"outdoorresearch.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Mammut", @"name", @"mammut.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Prana", @"name", @"prana.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Mountain Khakis", @"name", @"mountainkhaki.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Evolv", @"name", @"evolvsports.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Metolius", @"name", @"metoliusclimbing.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Friksn", @"name", @"friksn.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Darn Tough", @"name", @"darntough.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Chaco", @"name", @"chacousa.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-				 @"Misty Mountain", @"name", @"mistymountain.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Nutriex", @"name", @"nutriex.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"So Ill", @"name", @"soillholds.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Warrior's Way", @"name", @"warriorsway.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				[NSDictionary dictionaryWithObjectsAndKeys:
-					@"Fox Mountain Guides", @"name", @"foxmountainguides.com", @"website", @"103-map.png", @"logo", nil
-				 ],
-				nil
-				];
-	
+	sponsors = [[NSMutableArray alloc] init];
 	[super initWithNibName: @"SponsorViewController" bundle: nil];
 	return self;
 }
@@ -109,19 +27,43 @@
 
 - (UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"SponsorCell"];
+	SponsorTableCell *cell = (SponsorTableCell *)[tableView dequeueReusableCellWithIdentifier: @"SponsorCell"];
 	
 	if (!cell) {
-		cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleSubtitle reuseIdentifier: @"SponsorCell"];
+		cell = [[[SponsorTableCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: @"SponsorCell"] autorelease];
 	}
 	
 	NSDictionary *sponsor = [sponsors objectAtIndex: [indexPath row]]; // TODO may need to release, not sure
-	NSLog(@"%@", sponsor);
-	[[cell textLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"name"]]];
-	[[cell detailTextLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"website"]]];
-	//[[cell imageView] setImage: [UIImage imageNamed: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"logo"]]]];
+	[[cell nameLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"n"]]];
+	[[cell websiteLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"w"]]];
+	[[cell logoImage] setImage: [UIImage imageNamed: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"l"]]]];
+	
+	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
+	
 	
 	return cell;
+}
+
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath
+{	
+	if (detailController == nil) {
+		detailController = [[SponsorDetailViewController alloc] init];
+	}
+	
+	NSDictionary *sponsor = [sponsors objectAtIndex: [indexPath row]];
+	
+	[detailController setSponsorId: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"id"]]];
+	[detailController setName: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"n"]]];
+	[detailController setLogo: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"l"]]];
+	[detailController setWebsite: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"w"]]];
+	[[self navigationController] pushViewController:detailController animated: YES];
+	return;
+	
+}
+
+- (CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
+{
+	return 44.0;
 }
 
 - (void) viewDidLoad
@@ -133,6 +75,24 @@
 - (void) viewWillAppear:(BOOL)animated
 {
 	[[self navigationController] setNavigationBarHidden: NO];
+	
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	
+	NSString *lastUpdated = [prefs stringForKey: @"sponsorsUpdated"];
+	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
+	
+	// Cache data for one day
+	if ([sponsors count] == 0 || ![lastUpdated isEqualToString: currentDate]) {
+		
+		[[self view] bringSubviewToFront: loadingIndicator];
+		[loadingIndicator startAnimating];
+		responseData = [[NSMutableData data] retain];
+
+		NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: @"http://www.newriverclimbing.net/vous_sponsor.php"]];
+		[[NSURLConnection alloc] initWithRequest:request delegate:self];
+		
+	}
+	
 	[super viewWillAppear: animated];
 }
 
@@ -149,8 +109,51 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	[responseData setLength:0];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+	[responseData appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+	NSLog(@"Connection failed: %@", [error description]);
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	
+	[connection release];
+	
+	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+	
+	[responseData release];
+	NSDictionary *resultData = [responseString JSONValue];
+	NSArray *sponsorData = [resultData objectForKey: @"result"];
+	
+	
+	[sponsors removeAllObjects];
+	for (int i = 0; i < [sponsorData count]; i++) {
+		
+		[sponsors addObject: [sponsorData objectAtIndex: i]];
+		
+	}
+	
+	NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
+	[prefs setObject: currentDate forKey: @"sponsorsUpdated"];
+	
+	
+	//[responseString release];
+	[loadingIndicator stopAnimating];
+	[sponsorTable reloadData];
+	
+}
+
 
 - (void)dealloc {
+	[sponsors release];
+	[detailController release];
     [super dealloc];
 }
 

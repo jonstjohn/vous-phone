@@ -66,6 +66,9 @@
 	}
 	NSDictionary *event = [[[events objectAtIndex: [indexPath section]] objectForKey: @"e"] objectAtIndex: [indexPath row]];
 	[eventController setEventId: [event objectForKey: @"id"]];
+	[eventController setNameStr: [event objectForKey: @"n"]];
+	//[eventController setSponsorStr: [event objectForKey: @"s"]];
+	[eventController setLocationStr: [NSString stringWithFormat: @"%@ @ %@", [event objectForKey: @"t"], [event objectForKey: @"l"]]];
 	[[self navigationController] pushViewController:eventController animated: YES];
 	return;
 	
@@ -154,10 +157,6 @@
 	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
 	[prefs setObject: currentDate forKey: @"scheduledUpdated"];
 	
-	//NSLog(@"%@", events);
-	NSLog(@"connection done");
-	
-	//[responseString release];
 	[loadingIndicator stopAnimating];
 	[eventTable reloadData];
 	

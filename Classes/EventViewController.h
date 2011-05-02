@@ -14,13 +14,20 @@
 	NSString *eventId;
 	IBOutlet UILabel *name;
 	IBOutlet UILabel *sponsor;
-	IBOutlet UILabel *time;
 	IBOutlet UILabel *location;
 	IBOutlet UITextView *description;
 	IBOutlet UIActivityIndicatorView *loadingIndicator;
 	NSMutableData *responseData;
+	NSString *nameStr;
+	NSString *locationStr;
+	NSString *sponsorStr;
 }
 
 @property (nonatomic, retain) NSString *eventId;
+@property (nonatomic, retain) NSString *nameStr;
+@property (nonatomic, retain) NSString *locationStr;
+@property (nonatomic, retain) NSString *sponsorStr;
+
+- (void) adjustLayout;
 
 @end

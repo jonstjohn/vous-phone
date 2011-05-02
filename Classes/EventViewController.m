@@ -12,6 +12,9 @@
 @implementation EventViewController
 
 @synthesize eventId;
+@synthesize nameStr;
+@synthesize sponsorStr;
+@synthesize locationStr;
 
 - (id) init
 {
@@ -24,11 +27,19 @@
 {
 	[[self navigationController] setNavigationBarHidden: NO];
 	
-	[name setText: @""];
-	[location setText: @""];
-	[time setText: @""];
-	[sponsor setText: @""];
-	[description setText: @""];
+	// Populate view with controller properties
+	CGRect nameFrame = [name frame];
+	nameFrame.size.width = 280.0;
+	[name setFrame: nameFrame];
+	[name setText: nameStr];
+	[name sizeToFit]; // adjust view to fit
+	
+	[self adjustLayout]; // adjust layout to account for differently size name
+	
+	
+	[location setText: locationStr];
+	[sponsor setText: sponsorStr];
+	[description setText: @"Loading ..."]; // display loading text
 	
 	[[self view] bringSubviewToFront: loadingIndicator];
 	[loadingIndicator startAnimating];
@@ -102,24 +113,48 @@
 	[responseData release];
 	
 	NSDictionary *resultData = [responseString JSONValue];
-	NSLog(@"result: %@", resultData);
 	NSDictionary *eventData = [resultData objectForKey: @"result"];
-	NSLog(@"eventData: %@", eventData);
 	
-	
-	[name setText: [eventData objectForKey: @"n"]];
-	[location setText: [eventData objectForKey: @"l"]];
-	[time setText: [eventData objectForKey: @"t"]];
-	[sponsor setText: [eventData objectForKey: @"s"]];
+	//[name setText: [eventData objectForKey: @"n"]];
+	//[name sizeToFit];
+	//[location setText: [NSString stringWithFormat: @"%@ @ %@", [eventData objectForKey: @"t"], [eventData objectForKey: @"l"]]];
+	//[sponsor setText: [eventData objectForKey: @"s"]];
 	[description setText: [eventData objectForKey: @"d"]];
 	
 	[loadingIndicator stopAnimating];
 	
 }
 
+- (void) adjustLayout
+{
+	// Get name frame
+	CGRect nameFrame = [name frame];
+	//nameFrame.size.height = imgSize.height;
+	
+	// Adjust position of Location frame
+	CGRect locationFrame = [location frame];
+	locationFrame.origin.y = nameFrame.origin.y + nameFrame.size.height + 10.0;
+	[location setFrame: locationFrame];
+	
+	// Adjust position of Sponsor frame
+	CGRect sponsorFrame = [sponsor frame];
+	sponsorFrame.origin.y = locationFrame.origin.y + locationFrame.size.height + 10.0;
+	[sponsor setFrame: sponsorFrame];
+	
+	// Adjust size and position of description frame
+	CGRect viewFrame = [[self view] frame];
+	CGRect descriptionFrame = [description frame];
+	descriptionFrame.origin.y = sponsorFrame.origin.y + sponsorFrame.size.height + 10.0;
+	descriptionFrame.size.height = viewFrame.size.height - sponsorFrame.origin.y - 10.0;
+	[description setFrame: descriptionFrame];
+}
+
 
 - (void)dealloc {
 	[eventId release];
+	[nameStr release];
+	[sponsorStr release];
+	[locationStr release];
 	[responseData release];
     [super dealloc];
 }
