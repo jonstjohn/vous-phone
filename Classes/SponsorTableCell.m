@@ -58,13 +58,13 @@
 	float nameY = inset;
 	float nameWidth = w - logoWidth - columnSpacing;
 	float nameFontSize = big;
-	float nameHeight = nameFontSize + 1.0;
+	float nameHeight = nameFontSize + 3.0;
 	
 	float websiteX = inset;
 	float websiteY = nameY + nameHeight + rowSpacing;
 	float websiteWidth = nameWidth;
 	float websiteFontSize = small;
-	float websiteHeight = websiteFontSize + 1.0;
+	float websiteHeight = websiteFontSize + 2.0;
 	
 	float logoX = nameX + nameWidth + columnSpacing;
 	float logoY = (h - 20.0) / 2.0;

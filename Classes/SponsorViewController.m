@@ -63,12 +63,17 @@
 
 - (CGFloat) tableView: (UITableView *) tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-	return 44.0;
+	return 47.0;
 }
 
 - (void) viewDidLoad
 {
 	[[self navigationItem] setTitle: @"Sponsors"];
+	
+	UIBarButtonItem *iButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemRefresh target:self action:@selector(refreshData)];
+    [[self navigationItem] setRightBarButtonItem: iButton];
+    [iButton release];
+	
 	[super viewDidLoad];
 }
 
@@ -84,16 +89,22 @@
 	// Cache data for one day
 	if ([sponsors count] == 0 || ![lastUpdated isEqualToString: currentDate]) {
 		
-		[[self view] bringSubviewToFront: loadingIndicator];
-		[loadingIndicator startAnimating];
-		responseData = [[NSMutableData data] retain];
-
-		NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: @"http://www.newriverclimbing.net/vous_sponsor.php"]];
-		[[NSURLConnection alloc] initWithRequest:request delegate:self];
+		[self refreshData];
 		
 	}
 	
 	[super viewWillAppear: animated];
+}
+
+- (void) refreshData
+{
+	[sponsorTable setHidden: YES];
+	[[self view] bringSubviewToFront: loadingIndicator];
+	[loadingIndicator startAnimating];
+	responseData = [[NSMutableData data] retain];
+	
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: @"http://www.newriverclimbing.net/vous_sponsor.php"]];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -146,6 +157,7 @@
 	
 	//[responseString release];
 	[loadingIndicator stopAnimating];
+	[sponsorTable setHidden: NO];
 	[sponsorTable reloadData];
 	
 }

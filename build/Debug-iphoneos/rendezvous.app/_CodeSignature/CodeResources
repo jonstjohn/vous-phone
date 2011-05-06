@@ -140,21 +140,33 @@
 		<data>
 		XK71x9S9hMlCNhDUjcRCB7cg6yQ=
 		</data>
+		<key>71-compass.png</key>
+		<data>
+		YiwrU/CEV/RaTjfd5GOgBDhYa8Y=
+		</data>
 		<key>83-calendar.png</key>
 		<data>
 		+8htAAfStTp8/kePwemXgOcUmmQ=
 		</data>
+		<key>BurnwoodMap.jpg</key>
+		<data>
+		TPJSc0tWRvklrKPvQ2M2RfZm+sU=
+		</data>
 		<key>EventViewController.nib</key>
 		<data>
-		1HwEcGxjxyTRTXNKci50Xwj6FtE=
+		5xTvBXZO6dqCsC53aGOG13TBTn4=
 		</data>
 		<key>HomeViewController.nib</key>
 		<data>
-		giakzupimJxWiZZarIcvPFDG/Js=
+		8dT+Iks7UFrLlICoN3KwmYDtdKE=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
 		CNYmg6XEvDVpwLQ/Y0mHRZoH8vk=
+		</data>
+		<key>MapBurnwoodViewController.nib</key>
+		<data>
+		XIes7mX5SHllIFxUo/K+Qyv7Gc0=
 		</data>
 		<key>MapViewController.nib</key>
 		<data>
@@ -166,11 +178,11 @@
 		</data>
 		<key>RegistrationViewController.nib</key>
 		<data>
-		dlYUo/mF9FHUy0T+QLp4jbQzYrM=
+		UkAGZ7wD0YreTRIOH80YD1XWzjY=
 		</data>
 		<key>ScheduleViewController.nib</key>
 		<data>
-		YSfRRrNgxX59XrHvDymZH2GYVEs=
+		zBQwkL8JmWsXgGaqkTA/xT7WSmU=
 		</data>
 		<key>SponsorDetailViewController.nib</key>
 		<data>
@@ -183,6 +195,14 @@
 		<key>SupportViewController.nib</key>
 		<data>
 		04jiJi+OA3mKN+FFS0cQWKBWRy4=
+		</data>
+		<key>WeatherAboutViewController.nib</key>
+		<data>
+		i6OIlthrVF721bw9MQHJgZnwweE=
+		</data>
+		<key>WeatherHourlyViewController.nib</key>
+		<data>
+		8AOPWbNqfUWVu163YA2xmQbgplw=
 		</data>
 		<key>WeatherViewController.nib</key>
 		<data>
@@ -236,6 +256,10 @@
 		<data>
 		oKiJ+PGeDccNhv6yZi91K1KX1aw=
 		</data>
+		<key>cw_logo.png</key>
+		<data>
+		EuwWNZLhkUtsCZ0NGhbPu0r0IB4=
+		</data>
 		<key>dpm.jpg</key>
 		<data>
 		Se8LYjA/qpMHVwj5YaCCa5D4okY=
@@ -275,6 +299,18 @@
 		<key>icon.png</key>
 		<data>
 		sHaDuJp/xlVXEiHXP6xsVv25N7U=
+		</data>
+		<key>icon_calendar.png</key>
+		<data>
+		fxNODE1+P3tny2gCgK7FEbH6J1M=
+		</data>
+		<key>icon_information.png</key>
+		<data>
+		ZbxJ2+bHL3SqfPr7EPDZFvFRfEg=
+		</data>
+		<key>icon_time.png</key>
+		<data>
+		zz3orgj8XD2KhvvnMBUx0oEX1Sg=
 		</data>
 		<key>light_rain.png</key>
 		<data>

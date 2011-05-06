@@ -41,6 +41,8 @@
 	[sponsor setText: sponsorStr];
 	[description setText: @"Loading ..."]; // display loading text
 	
+	[description setContentInset: UIEdgeInsetsMake(-8,-8,0,0)];
+	
 	[[self view] bringSubviewToFront: loadingIndicator];
 	[loadingIndicator startAnimating];
 	responseData = [[NSMutableData data] retain];
@@ -128,24 +130,27 @@
 - (void) adjustLayout
 {
 	// Get name frame
+	//[name sizeToFit];
 	CGRect nameFrame = [name frame];
 	//nameFrame.size.height = imgSize.height;
 	
 	// Adjust position of Location frame
 	CGRect locationFrame = [location frame];
-	locationFrame.origin.y = nameFrame.origin.y + nameFrame.size.height + 10.0;
+	locationFrame.origin.y = nameFrame.origin.y + nameFrame.size.height + 5.0;
 	[location setFrame: locationFrame];
 	
 	// Adjust position of Sponsor frame
+	/*
 	CGRect sponsorFrame = [sponsor frame];
 	sponsorFrame.origin.y = locationFrame.origin.y + locationFrame.size.height + 10.0;
 	[sponsor setFrame: sponsorFrame];
+	 */
 	
 	// Adjust size and position of description frame
 	CGRect viewFrame = [[self view] frame];
 	CGRect descriptionFrame = [description frame];
-	descriptionFrame.origin.y = sponsorFrame.origin.y + sponsorFrame.size.height + 10.0;
-	descriptionFrame.size.height = viewFrame.size.height - sponsorFrame.origin.y - 10.0;
+	descriptionFrame.origin.y = locationFrame.origin.y + locationFrame.size.height + 10.0;
+	descriptionFrame.size.height = viewFrame.size.height - descriptionFrame.origin.y - 10.0;
 	[description setFrame: descriptionFrame];
 }
 

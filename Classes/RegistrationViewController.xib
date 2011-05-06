@@ -79,7 +79,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Attend the Vous</string>
+						<string key="IBUIText">Register for the Vous</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica-Oblique</string>
 							<double key="NSSize">14</double>
@@ -103,20 +103,9 @@
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIEditable">NO</bool>
-						<string type="base64-UTF8" key="IBUIText">UmVnaXN0cmF0aW9uIGZvciB0aGUgTmV3IFJpdmVyIEdvcmdlIFJlbmR2ZXp2b3VzIGlzIG9saW5lIHRo
-cm91Z2ggQWN0aXZlLmNvbS4KClRvIHJlZ2lzdGVyLCB2aXNpdCB0aGUgUmVuZGV6dm91cyB3ZWJzaXRl
-IGF0IGh0dHA6Ly93d3cubmV3cml2ZXJyZW5kZXp2b3VzLmNvbSAuCgpSZWdpc3RyYXRpb24gZm9yIHRo
-ZSBOZXcgUml2ZXIgR29yZ2UgUmVuZHZlenZvdXMgaXMgb2xpbmUgdGhyb3VnaCBBY3RpdmUuY29tLgoK
-VG8gcmVnaXN0ZXIsIHZpc2l0IHRoZSBSZW5kZXp2b3VzIHdlYnNpdGUgYXQgaHR0cDovL3d3dy5uZXdy
-aXZlcnJlbmRlenZvdXMuY29tIC4KClJlZ2lzdHJhdGlvbiBmb3IgdGhlIE5ldyBSaXZlciBHb3JnZSBS
-ZW5kdmV6dm91cyBpcyBvbGluZSB0aHJvdWdoIEFjdGl2ZS5jb20uCgpUbyByZWdpc3RlciwgdmlzaXQg
-dGhlIFJlbmRlenZvdXMgd2Vic2l0ZSBhdCBodHRwOi8vd3d3Lm5ld3JpdmVycmVuZGV6dm91cy5jb20g
-LgoKUmVnaXN0cmF0aW9uIGZvciB0aGUgTmV3IFJpdmVyIEdvcmdlIFJlbmR2ZXp2b3VzIGlzIG9saW5l
-IHRocm91Z2ggQWN0aXZlLmNvbS4KClRvIHJlZ2lzdGVyLCB2aXNpdCB0aGUgUmVuZGV6dm91cyB3ZWJz
-aXRlIGF0IGh0dHA6Ly93d3cubmV3cml2ZXJyZW5kZXp2b3VzLmNvbSAuCgpSZWdpc3RyYXRpb24gZm9y
-IHRoZSBOZXcgUml2ZXIgR29yZ2UgUmVuZHZlenZvdXMgaXMgb2xpbmUgdGhyb3VnaCBBY3RpdmUuY29t
-LgoKVG8gcmVnaXN0ZXIsIHZpc2l0IHRoZSBSZW5kZXp2b3VzIHdlYnNpdGUgYXQgaHR0cDovL3d3dy5u
-ZXdyaXZlcnJlbmRlenZvdXMuY29tIC4</string>
+						<string type="base64-UTF8" key="IBUIText">UmVnaXN0cmF0aW9uIGZvciB0aGUgTmV3IFJpdmVyIEdvcmdlIFJlbmR2ZXp2b3VzIGlzIGF2YWlsYWJs
+ZSB0aHJvdWdoIEFjdGl2ZS5jb20uCgpWaXNpdCB0aGUgUmVuZGV6dm91cyB3ZWJzaXRlIGF0IGh0dHA6
+Ly93d3cubmV3cml2ZXJyZW5kZXp2b3VzLmNvbSBmb3IgbW9yZSBpbmZvcm1hdGlvbi4</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">13</double>

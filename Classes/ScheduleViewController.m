@@ -7,6 +7,7 @@
 //
 
 #import "ScheduleViewController.h"
+#import "EventTableCell.h"
 
 
 @implementation ScheduleViewController
@@ -32,15 +33,23 @@
 
 - (UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath: (NSIndexPath *) indexPath
 {
+	/*
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"EventCell"];
 	
 	if (!cell) {
 		cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleSubtitle reuseIdentifier: @"EventCell"];
 	}
+	 */
+	
+	EventTableCell *cell = (EventTableCell *)[tableView dequeueReusableCellWithIdentifier: @"EventCell"];
+	
+	if (!cell) {
+		cell = [[[EventTableCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: @"EventCell"] autorelease];
+	}
 	
 	NSDictionary *event = [[[events objectAtIndex: [indexPath section]] objectForKey: @"e"] objectAtIndex: [indexPath row]];
-	[[cell textLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"n"]]];
-	[[cell detailTextLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"t"]]];
+	[[cell nameLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"n"]]];
+	[[cell timeLabel] setText: [NSString stringWithFormat: @"%@", [event objectForKey: @"t"]]];
 	
 	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
 	
@@ -77,6 +86,14 @@
 - (void) viewDidLoad
 {
 	[[self navigationItem] setTitle: @"Schedule"];
+	
+    //UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    //[infoButton addTarget:self action:@selector(toggleInfo:) forControlEvents:UIControlEventTouchUpInside];
+    //UIBarButtonItem *iButton = [[UIBarButtonItem alloc] initWithCustomView: infoButton];
+	UIBarButtonItem *iButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemRefresh target:self action:@selector(refreshData)];
+    [[self navigationItem] setRightBarButtonItem: iButton];
+    [iButton release];
+	
 	[super viewDidLoad];
 }
 
@@ -93,14 +110,20 @@
 	// Cache data for one day
 	if ([events count] == 0 || ![lastUpdated isEqualToString: currentDate]) {
 	
-		[[self view] bringSubviewToFront: loadingIndicator];
-		[loadingIndicator startAnimating];
-		responseData = [[NSMutableData data] retain];
-		NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: requestUrl]];
-		[[NSURLConnection alloc] initWithRequest:request delegate:self];
+		[self refreshData];
 	
 	}
 	[super viewWillAppear: animated];
+}
+
+- (void) refreshData
+{
+	[eventTable setHidden: YES];
+	[[self view] bringSubviewToFront: loadingIndicator];
+	[loadingIndicator startAnimating];
+	responseData = [[NSMutableData data] retain];
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: requestUrl]];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];	
 }
 
 - (void)didReceiveMemoryWarning {
@@ -158,6 +181,7 @@
 	[prefs setObject: currentDate forKey: @"scheduledUpdated"];
 	
 	[loadingIndicator stopAnimating];
+	[eventTable setHidden: NO];
 	[eventTable reloadData];
 	
 }

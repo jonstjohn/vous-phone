@@ -12,6 +12,18 @@
 
 @implementation MapViewController
 
+- (id) init
+{
+	// Setup tab bar item
+	UITabBarItem *tbi = [self tabBarItem];
+	[tbi setTitle: @"Overview"];
+	
+	// Add image
+	UIImage *i = [UIImage imageNamed:@"71-compass.png"];
+	[tbi setImage: i];
+	return self;
+}
+
 - (void) viewDidLoad
 {
 	[[self navigationItem] setTitle: @"Map"];

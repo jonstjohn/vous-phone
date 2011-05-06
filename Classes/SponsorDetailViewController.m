@@ -53,10 +53,11 @@
 	[logoImage setFrame: frame];
 	
 	// Set the description view adjusted for logo
-	
+	CGRect viewFrame = [[self view] frame];
 	CGRect descFrame = [description frame];
 	//description.bounds = CGRectMake(descFrame.origin.x, descFrame.origin.y, 300, description.bounds.size.height - logoImage.bounds.size.height);
 	descFrame.origin.y = logoImage.frame.origin.y + imgSize.height + 10.0;
+	descFrame.size.height = viewFrame.size.height - descFrame.origin.y - 10.0;
 	[description setFrame: descFrame];
 	
 
@@ -112,7 +113,7 @@
 	//description.frame.origin = point;
 	
 	// Modify description location to just below logo
-	[description setText: [sponsor objectForKey: @"d"]];
+	[description setText: [sponsor objectForKey: @"d"] != [NSNull null] ? [sponsor objectForKey: @"d"] : @"No description available"];
 
 	//[responseString release];
 	[loadingIndicator stopAnimating];

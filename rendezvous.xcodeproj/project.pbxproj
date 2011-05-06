@@ -60,6 +60,20 @@
 		60840D11136C5FE7002772C6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60840D10136C5FE7002772C6 /* icon.png */; };
 		608F15D11361D73F008E91D8 /* SponsorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F15CF1361D73F008E91D8 /* SponsorDetailViewController.m */; };
 		608F15D21361D73F008E91D8 /* SponsorDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 608F15D01361D73F008E91D8 /* SponsorDetailViewController.xib */; };
+		60B0B43813722C9A00899F2B /* EventTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B43713722C9A00899F2B /* EventTableCell.m */; };
+		60B0B48613723E1F00899F2B /* WeatherHourlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B48413723E1F00899F2B /* WeatherHourlyViewController.m */; };
+		60B0B48713723E1F00899F2B /* WeatherHourlyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B48513723E1F00899F2B /* WeatherHourlyViewController.xib */; };
+		60B0B4AB1372403300899F2B /* icon_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B4A91372403300899F2B /* icon_calendar.png */; };
+		60B0B4AC1372403300899F2B /* icon_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B4AA1372403300899F2B /* icon_time.png */; };
+		60B0B51A1372D57E00899F2B /* WeatherHourlyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B5191372D57E00899F2B /* WeatherHourlyCell.m */; };
+		60B0B55A1372DA5600899F2B /* MapBurnwoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B5581372DA5600899F2B /* MapBurnwoodViewController.m */; };
+		60B0B55B1372DA5600899F2B /* MapBurnwoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B5591372DA5600899F2B /* MapBurnwoodViewController.xib */; };
+		60B0B55D1372DB4D00899F2B /* BurnwoodMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B55C1372DB4D00899F2B /* BurnwoodMap.jpg */; };
+		60B0B5E21372ECC300899F2B /* 71-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B5E11372ECC300899F2B /* 71-compass.png */; };
+		60B0B64013747AD400899F2B /* WeatherAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0B63E13747AD400899F2B /* WeatherAboutViewController.m */; };
+		60B0B64113747AD400899F2B /* WeatherAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B63F13747AD400899F2B /* WeatherAboutViewController.xib */; };
+		60B0B64913747D8E00899F2B /* icon_information.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B64813747D8E00899F2B /* icon_information.png */; };
+		60B0B64B13747DBF00899F2B /* cw_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B0B64A13747DBF00899F2B /* cw_logo.png */; };
 		60CFB4D4135BA589009160F6 /* vous_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CFB4D3135BA589009160F6 /* vous_logo.png */; };
 		60CFCDA5135D2195009160F6 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFCDA4135D2195009160F6 /* MapPoint.m */; };
 		60CFCDF4135D22EE009160F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CFCDF3135D22EE009160F6 /* MapKit.framework */; };
@@ -208,6 +222,25 @@
 		608F15CE1361D73F008E91D8 /* SponsorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorDetailViewController.h; sourceTree = "<group>"; };
 		608F15CF1361D73F008E91D8 /* SponsorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorDetailViewController.m; sourceTree = "<group>"; };
 		608F15D01361D73F008E91D8 /* SponsorDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SponsorDetailViewController.xib; sourceTree = "<group>"; };
+		60B0B43613722C9A00899F2B /* EventTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableCell.h; sourceTree = "<group>"; };
+		60B0B43713722C9A00899F2B /* EventTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableCell.m; sourceTree = "<group>"; };
+		60B0B48313723E1F00899F2B /* WeatherHourlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherHourlyViewController.h; sourceTree = "<group>"; };
+		60B0B48413723E1F00899F2B /* WeatherHourlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherHourlyViewController.m; sourceTree = "<group>"; };
+		60B0B48513723E1F00899F2B /* WeatherHourlyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherHourlyViewController.xib; sourceTree = "<group>"; };
+		60B0B4A91372403300899F2B /* icon_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_calendar.png; sourceTree = "<group>"; };
+		60B0B4AA1372403300899F2B /* icon_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_time.png; sourceTree = "<group>"; };
+		60B0B5181372D57E00899F2B /* WeatherHourlyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherHourlyCell.h; sourceTree = "<group>"; };
+		60B0B5191372D57E00899F2B /* WeatherHourlyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherHourlyCell.m; sourceTree = "<group>"; };
+		60B0B5571372DA5600899F2B /* MapBurnwoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBurnwoodViewController.h; sourceTree = "<group>"; };
+		60B0B5581372DA5600899F2B /* MapBurnwoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapBurnwoodViewController.m; sourceTree = "<group>"; };
+		60B0B5591372DA5600899F2B /* MapBurnwoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapBurnwoodViewController.xib; sourceTree = "<group>"; };
+		60B0B55C1372DB4D00899F2B /* BurnwoodMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BurnwoodMap.jpg; sourceTree = "<group>"; };
+		60B0B5E11372ECC300899F2B /* 71-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "71-compass.png"; sourceTree = "<group>"; };
+		60B0B63D13747AD400899F2B /* WeatherAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherAboutViewController.h; sourceTree = "<group>"; };
+		60B0B63E13747AD400899F2B /* WeatherAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherAboutViewController.m; sourceTree = "<group>"; };
+		60B0B63F13747AD400899F2B /* WeatherAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherAboutViewController.xib; sourceTree = "<group>"; };
+		60B0B64813747D8E00899F2B /* icon_information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_information.png; sourceTree = "<group>"; };
+		60B0B64A13747DBF00899F2B /* cw_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cw_logo.png; sourceTree = "<group>"; };
 		60CFB4D3135BA589009160F6 /* vous_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vous_logo.png; sourceTree = "<group>"; };
 		60CFCDA3135D2195009160F6 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
 		60CFCDA4135D2195009160F6 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
@@ -319,6 +352,8 @@
 				60CFCF10135E716A009160F6 /* EventViewController.h */,
 				60CFCF11135E716A009160F6 /* EventViewController.m */,
 				60CFCF12135E716A009160F6 /* EventViewController.xib */,
+				60B0B43613722C9A00899F2B /* EventTableCell.h */,
+				60B0B43713722C9A00899F2B /* EventTableCell.m */,
 				6077B65A1359D458006C58C0 /* SupportViewController.h */,
 				6077B65B1359D458006C58C0 /* SupportViewController.m */,
 				6077B65C1359D458006C58C0 /* SupportViewController.xib */,
@@ -336,11 +371,22 @@
 				6077B6831359D9B3006C58C0 /* MapViewController.h */,
 				6077B6841359D9B3006C58C0 /* MapViewController.m */,
 				6077B6851359D9B3006C58C0 /* MapViewController.xib */,
+				60B0B5571372DA5600899F2B /* MapBurnwoodViewController.h */,
+				60B0B5581372DA5600899F2B /* MapBurnwoodViewController.m */,
+				60B0B5591372DA5600899F2B /* MapBurnwoodViewController.xib */,
 				6077B68A1359D9BD006C58C0 /* WeatherViewController.h */,
 				6077B68B1359D9BD006C58C0 /* WeatherViewController.m */,
 				6077B68C1359D9BD006C58C0 /* WeatherViewController.xib */,
+				60B0B48313723E1F00899F2B /* WeatherHourlyViewController.h */,
+				60B0B48413723E1F00899F2B /* WeatherHourlyViewController.m */,
+				60B0B48513723E1F00899F2B /* WeatherHourlyViewController.xib */,
+				60B0B5181372D57E00899F2B /* WeatherHourlyCell.h */,
+				60B0B5191372D57E00899F2B /* WeatherHourlyCell.m */,
 				60CFCE3F135D276B009160F6 /* AreaDailyCell.h */,
 				60CFCE40135D276B009160F6 /* AreaDailyCell.m */,
+				60B0B63D13747AD400899F2B /* WeatherAboutViewController.h */,
+				60B0B63E13747AD400899F2B /* WeatherAboutViewController.m */,
+				60B0B63F13747AD400899F2B /* WeatherAboutViewController.xib */,
 				60CFCDA3135D2195009160F6 /* MapPoint.h */,
 				60CFCDA4135D2195009160F6 /* MapPoint.m */,
 				6077B7C5135B0011006C58C0 /* json */,
@@ -385,6 +431,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60B0B64A13747DBF00899F2B /* cw_logo.png */,
+				60B0B64813747D8E00899F2B /* icon_information.png */,
+				60B0B5E11372ECC300899F2B /* 71-compass.png */,
+				60B0B55C1372DB4D00899F2B /* BurnwoodMap.jpg */,
+				60B0B4A91372403300899F2B /* icon_calendar.png */,
+				60B0B4AA1372403300899F2B /* icon_time.png */,
 				60840D10136C5FE7002772C6 /* icon.png */,
 				60840CDA136C58DB002772C6 /* vous_logo2.png */,
 				60CFB4D3135BA589009160F6 /* vous_logo.png */,
@@ -699,6 +751,15 @@
 				60840CD5136C54E5002772C6 /* users.png in Resources */,
 				60840CDB136C58DB002772C6 /* vous_logo2.png in Resources */,
 				60840D11136C5FE7002772C6 /* icon.png in Resources */,
+				60B0B48713723E1F00899F2B /* WeatherHourlyViewController.xib in Resources */,
+				60B0B4AB1372403300899F2B /* icon_calendar.png in Resources */,
+				60B0B4AC1372403300899F2B /* icon_time.png in Resources */,
+				60B0B55B1372DA5600899F2B /* MapBurnwoodViewController.xib in Resources */,
+				60B0B55D1372DB4D00899F2B /* BurnwoodMap.jpg in Resources */,
+				60B0B5E21372ECC300899F2B /* 71-compass.png in Resources */,
+				60B0B64113747AD400899F2B /* WeatherAboutViewController.xib in Resources */,
+				60B0B64913747D8E00899F2B /* icon_information.png in Resources */,
+				60B0B64B13747DBF00899F2B /* cw_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +790,11 @@
 				60CFCE41135D276B009160F6 /* AreaDailyCell.m in Sources */,
 				60CFCF13135E716A009160F6 /* EventViewController.m in Sources */,
 				608F15D11361D73F008E91D8 /* SponsorDetailViewController.m in Sources */,
+				60B0B43813722C9A00899F2B /* EventTableCell.m in Sources */,
+				60B0B48613723E1F00899F2B /* WeatherHourlyViewController.m in Sources */,
+				60B0B51A1372D57E00899F2B /* WeatherHourlyCell.m in Sources */,
+				60B0B55A1372DA5600899F2B /* MapBurnwoodViewController.m in Sources */,
+				60B0B64013747AD400899F2B /* WeatherAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

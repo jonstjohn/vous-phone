@@ -13,6 +13,9 @@
 #import "RegistrationViewController.h"
 #import "MapViewController.h"
 #import "WeatherViewController.h"
+#import "WeatherHourlyViewController.h"
+#import "MapBurnwoodViewController.h"
+#import "WeatherAboutViewController.h"
 
 @interface HomeViewController : UIViewController {
 	ScheduleViewController *scheduleController;
@@ -21,6 +24,8 @@
 	RegistrationViewController *registrationController;
 	MapViewController *mapController;
 	WeatherViewController *weatherController;
+	UITabBarController *weatherTabController;
+	UITabBarController *mapTabController;
 }
 - (IBAction) showSchedule;
 - (IBAction) showSupport;

@@ -17,6 +17,14 @@
 	days = [[NSMutableArray alloc] initWithObjects: nil];
 	[myTable setRowHeight: 65.0];
 	
+	// Setup tab bar item
+	UITabBarItem *tbi = [self tabBarItem];
+	[tbi setTitle: @"Daily"];
+	
+	// Add image
+	UIImage *i = [UIImage imageNamed:@"icon_calendar.png"];
+	[tbi setImage: i];
+	
 	return self;
 }
 
@@ -79,11 +87,19 @@
 	[containerView addSubview: windLabel];
 	
 	[myTable setTableHeaderView: containerView];
+	/*
+	UIBarButtonItem *iButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemRefresh target:self action:@selector(refreshData)];
+    [[self navigationItem] setRightBarButtonItem: iButton];
+    [iButton release];
+	 */
 }
 
 - (void) viewWillAppear:(BOOL)animated
 {
 	[[self navigationController] setNavigationBarHidden: NO];
+	
+	[self refreshData];
+	
 	[super viewWillAppear: animated];
 }
 
@@ -104,9 +120,12 @@
 {
 	[super viewDidAppear: animated];
 	[[self navigationController] setNavigationBarHidden: NO];
-	
+}
+
+- (void) refreshData
+{
+	[myTable setHidden: YES];
 	[[self view] bringSubviewToFront: activityIndicator]; 
-	[activityIndicator setHidesWhenStopped: NO];
 	[activityIndicator startAnimating];
 	
 	// Send request for JSON data
@@ -116,7 +135,7 @@
 					 [[UIDevice currentDevice] uniqueIdentifier]];
 	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString: url]];
 	
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];	
 }
 
 - (NSInteger) tableView: (UITableView *) tableView numberOfRowsInSection: (NSInteger) section
@@ -187,6 +206,7 @@
 	
 	[days removeAllObjects];
 	
+	//NSLog(@"%@", daysJson);
 	NSArray *forecastJson = [daysJson objectForKey: @"f"];
 	
 	for (int i = 0; i < [forecastJson count]; i++) {
@@ -195,7 +215,8 @@
 	
 	[responseString release];
 	
-	[activityIndicator setHidden: YES];
+	[activityIndicator stopAnimating];
+	[myTable setHidden: NO];
 	[myTable reloadData];
 	
 }
