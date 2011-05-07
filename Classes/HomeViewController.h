@@ -22,8 +22,6 @@
 	SupportViewController *supportController;
 	SponsorViewController *sponsorController;
 	RegistrationViewController *registrationController;
-	MapViewController *mapController;
-	WeatherViewController *weatherController;
 	UITabBarController *weatherTabController;
 	UITabBarController *mapTabController;
 }

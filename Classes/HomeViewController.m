@@ -88,8 +88,8 @@
 		mapTabController = [[UITabBarController alloc] init];
 		
 		// Create view controllers
-		UIViewController *vc1 = [[MapViewController alloc] init];
-		UIViewController *vc2 = [[MapBurnwoodViewController alloc] init];
+		UIViewController *vc1 = [[MapBurnwoodViewController alloc] init];
+		UIViewController *vc2 = [[MapViewController alloc] init];
 		
 		
 		
@@ -165,9 +165,8 @@
 	[supportController release];
 	[sponsorController release];
 	[registrationController release];
-	[mapController release];
-	[weatherController release];
 	[weatherTabController release];
+	[mapTabController release];
     [super dealloc];
 }
 

@@ -71,7 +71,7 @@
 	[super layoutSubviews];
 	
 	CGRect bounds = [[self contentView] bounds];
-	float h = bounds.size.height;
+	//float h = bounds.size.height;
 	float w = bounds.size.width;
 	//float valueWidth = 200.0;
 	

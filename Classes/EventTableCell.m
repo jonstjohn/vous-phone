@@ -35,11 +35,11 @@
 	[super layoutSubviews];
 	
 	CGRect bounds = [[self contentView] bounds];
-	float h = bounds.size.height;
+	//float h = bounds.size.height;
 	float w = bounds.size.width;
 	
 	float inset = 6.0;
-	float columnSpacing = 10.0;
+	//float columnSpacing = 10.0;
 	float rowSpacing = 2.0;
 	
 	float big = 16.0;

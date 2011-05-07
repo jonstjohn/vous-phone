@@ -26,6 +26,12 @@
 	return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+	[[self navigationController] setNavigationBarHidden: NO];
+	[super viewWillAppear: animated];
+}
+
 - (UIView *) viewForZoomingInScrollView: (UIScrollView *) scrollView
 {
 	return imgForScr;

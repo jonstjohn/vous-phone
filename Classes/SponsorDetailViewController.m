@@ -39,10 +39,15 @@
 	
 	[nameLabel setText: name];
 	[websiteLabel setText: website];
+	[websiteLabel setContentInset: UIEdgeInsetsMake(-4,-8,0,0)];
 	
 	// Determine image size and resize logoImage to accomodate height
-	UIImage *img = [UIImage imageNamed: logo];
-	[logoImage setImage: img];
+	UIImage *img = [UIImage imageNamed: [logo length] > 0 ? logo : @"graypixel.png"];
+	if (img) {
+		[logoImage setImage: img];
+	} else {
+		[logoImage setImage: [UIImage imageNamed: @"graypixel.png"]];
+	}
 	//[logoImage setCenter: CGPointMake(1.0, 10.0)];
 	
 	// Set logo view to the size of the logo
@@ -95,7 +100,9 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	NSLog(@"Connection failed: %@", [error description]);
+	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle: @"Network Connection Failure" message:@"Please try again when your network connection is restored." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alertView show];
+	[alertView release];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -115,7 +122,7 @@
 	// Modify description location to just below logo
 	[description setText: [sponsor objectForKey: @"d"] != [NSNull null] ? [sponsor objectForKey: @"d"] : @"No description available"];
 
-	//[responseString release];
+	[responseString release];
 	[loadingIndicator stopAnimating];
 	
 }

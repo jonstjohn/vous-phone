@@ -11,7 +11,7 @@
 
 @interface SponsorDetailViewController : UIViewController {
 	IBOutlet UILabel *nameLabel;
-	IBOutlet UILabel *websiteLabel;
+	IBOutlet UITextView *websiteLabel;
 	IBOutlet UITextView *description;
 	IBOutlet UIImageView *logoImage;
 	NSString *sponsorId;

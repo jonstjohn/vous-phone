@@ -35,7 +35,7 @@
 	
 	NSDictionary *sponsor = [sponsors objectAtIndex: [indexPath row]]; // TODO may need to release, not sure
 	[[cell nameLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"n"]]];
-	[[cell websiteLabel] setText: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"w"]]];
+	[[cell websiteLabel] setText: [sponsor objectForKey: @"w"] == [NSNull null] ? @"" : [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"w"]]];
 	[[cell logoImage] setImage: [UIImage imageNamed: [NSString stringWithFormat: @"%@", [sponsor objectForKey: @"l"]]]];
 	
 	[cell setAccessoryType: UITableViewCellAccessoryDisclosureIndicator];
@@ -129,7 +129,9 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	NSLog(@"Connection failed: %@", [error description]);
+	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle: @"Network Connection Failure" message:@"Please try again when your network connection is restored." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alertView show];
+	[alertView release];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -154,8 +156,7 @@
 	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
 	[prefs setObject: currentDate forKey: @"sponsorsUpdated"];
 	
-	
-	//[responseString release];
+	[responseString release];
 	[loadingIndicator stopAnimating];
 	[sponsorTable setHidden: NO];
 	[sponsorTable reloadData];

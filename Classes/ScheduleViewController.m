@@ -148,7 +148,9 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-	NSLog(@"Connection failed: %@", [error description]);
+	UIAlertView* alertView = [[UIAlertView alloc] initWithTitle: @"Network Connection Failure" message:@"Please try again when your network connection is restored." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[alertView show];
+	[alertView release];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -156,6 +158,7 @@
 	[connection release];
 	
 	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+	
 	
 	// Cache data, expire after 24 hours
 	//Cache *sharedCache = [Cache sharedCache];
@@ -180,6 +183,7 @@
 	NSString *currentDate = [[NSDate date] descriptionWithCalendarFormat:@"%Y-%m-%d" timeZone:nil locale:nil];
 	[prefs setObject: currentDate forKey: @"scheduledUpdated"];
 	
+	[responseString release];
 	[loadingIndicator stopAnimating];
 	[eventTable setHidden: NO];
 	[eventTable reloadData];

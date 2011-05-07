@@ -158,7 +158,27 @@
 		</data>
 		<key>HomeViewController.nib</key>
 		<data>
-		8dT+Iks7UFrLlICoN3KwmYDtdKE=
+		F7zJbwPo0kKlsT0QyTW5K4IhFvk=
+		</data>
+		<key>Icon-72.png</key>
+		<data>
+		s4E1L+xvXkAT1YonRX5bWHC0/30=
+		</data>
+		<key>Icon-Small-50.png</key>
+		<data>
+		aQs2yaHI4uGr+g/xiGeX5kM8ICw=
+		</data>
+		<key>Icon-Small.png</key>
+		<data>
+		QIeCixPQYwE488XrXBrsnzLcMj8=
+		</data>
+		<key>Icon-Small@2x.png</key>
+		<data>
+		3Y7kXiFdpDbzA/wdn3fNQ6ayJJQ=
+		</data>
+		<key>Icon@2x.png</key>
+		<data>
+		+eTZqSL1TTiH3I6lKhe33SE+9+Y=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -186,7 +206,7 @@
 		</data>
 		<key>SponsorDetailViewController.nib</key>
 		<data>
-		CXfEyENne12+vn6D1Lr0WUd1TW8=
+		D+BT60WbZsZO9QnH/VG8qrkgzAg=
 		</data>
 		<key>SponsorViewController.nib</key>
 		<data>
@@ -194,11 +214,11 @@
 		</data>
 		<key>SupportViewController.nib</key>
 		<data>
-		04jiJi+OA3mKN+FFS0cQWKBWRy4=
+		Caw9M7PCduUxS9Nx/odptJc3uko=
 		</data>
 		<key>WeatherAboutViewController.nib</key>
 		<data>
-		i6OIlthrVF721bw9MQHJgZnwweE=
+		F6ct9D+XisVTCRFBwYEBmgobpOc=
 		</data>
 		<key>WeatherHourlyViewController.nib</key>
 		<data>
@@ -288,6 +308,10 @@
 		<data>
 		nGCBO+QUCpvvxqgfZImQ6SrSofg=
 		</data>
+		<key>graypixel.png</key>
+		<data>
+		zYzcoZOu6E0LD3suQa9p9M4mlhA=
+		</data>
 		<key>hail.png</key>
 		<data>
 		ceekxb3I48X253h9VRrLR+LSkkM=
@@ -295,6 +319,10 @@
 		<key>help_32.png</key>
 		<data>
 		3p7ZumnUEDC8yf/qccvQ904fUTc=
+		</data>
+		<key>iTunesArtwork</key>
+		<data>
+		tDfbq/wCXvXydMJWmyfrMxicFK8=
 		</data>
 		<key>icon.png</key>
 		<data>

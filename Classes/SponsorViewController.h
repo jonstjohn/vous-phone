@@ -18,4 +18,5 @@
 	NSMutableData *responseData;
 }
 
+- (void) refreshData;
 @end

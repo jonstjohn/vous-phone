@@ -62,6 +62,17 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (void) refreshData
+{
+	// do nothing
+}
+
+- (IBAction)appStoreLink {
+	
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/climbing-weather/id432020810?mt=8"]];
+	
+}
+
 
 - (void)dealloc {
     [super dealloc];

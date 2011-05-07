@@ -103,7 +103,7 @@
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIEditable">NO</bool>
-						<string key="IBUIText">Be a part of the Rendezvous - volunteer your time to help us put on this great event.</string>
+						<string key="IBUIText">Learn more about NRAC and climbing in the New River Gorge @ the Hospitality tent.</string>
 						<object class="NSFont" key="IBUIFont" id="70669260">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">13</double>
@@ -124,7 +124,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Volunteer at the Rendezvous</string>
+						<string key="IBUIText">Stop by the Hospitality Tent</string>
 						<reference key="IBUITextColor" ref="34265461"/>
 						<reference key="IBUIHighlightedColor" ref="798068803"/>
 						<int key="IBUIBaselineAdjustment">1</int>

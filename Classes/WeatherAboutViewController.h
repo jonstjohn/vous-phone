@@ -13,4 +13,7 @@
 
 }
 
+- (void) refreshData;
+- (IBAction) appStoreLink;
+
 @end
